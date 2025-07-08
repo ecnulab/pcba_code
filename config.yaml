@@ -1,0 +1,20 @@
+
+path:
+  # 原始数据路径，这里为远程目录下的 TEST_AI/Machine 文件夹
+  src_path: "./transfer/External AI"
+
+  # 复制数据到本地自用
+  # work_path: "/home/hqit/test_goodwe/data_test/Work"
+
+  # 复制数据到本地给友商用
+  # share_path: "/home/hqit/test_goodwe/data_test/Share"
+
+
+  #复制数据为自用
+  stable_path: "/home/hqit/test_goodwe/transfer_backup"
+
+  user_check_path: "./human_evaluation"
+
+
+
+
