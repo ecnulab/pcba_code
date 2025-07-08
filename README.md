@@ -31,9 +31,9 @@ csv_directory = r"D:\goodwe_test\test_goodwe_test\human_evaluation"  # 替换为
 
 #### 权重链接
 
+把对应模型的权重放在weights文件夹下
+
 链接: https://pan.baidu.com/s/1wkcEVg3a5rUTlCDvZ7dvvg 提取码: eawc 
-
-
 
 #### 快速开始
 
