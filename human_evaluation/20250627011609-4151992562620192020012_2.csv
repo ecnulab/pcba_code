@@ -1,0 +1,18 @@
+[MACHINE_INFO]
+SerialNumber,SoftwareVersion,UserID,LineNo,LotNo
+A8HXL21-011,4.0.11001.27006,administrator,5,1
+[Board_INFO]
+Barcode,GroupName,ProgramName,Side,Lane,Length,Width,Conveyor,Fidu,Module,Part,FOV,StartInspTime,EndInspTime,Inspection time,Result
+4151992562620192020011,GDW-LC,290-20192-02-T,NONE,Front,177,406,171.20,2,2,2442,37,20250627011544,20250627011609,24.580,USEROK
+[PANEL_INFO]
+ModuleID,Result,InspTime,ModuleBarcode,RepairTime,Part_Total,Part_Good,Part_NG,Part_UserOK,Part_Skip
+2,USEROK,20250627011544,4151992562620192020012,20250627012446,1220,1214,0,6,0
+[Part_INFO]
+ModuleID,PartNo,Packaged,PartName,RefID,PosX,PosY,Part_Angle,CAD_X,CAD_Y,CAD_Angle,AlgorismKind,InspUserID,InspResult,RepairUserID,RepairResult,RepairTime,DefectNumber,Image_Path 
+2,1624,Default,151-20089-00,U24,344.618,60.313,,341.1195,59.1904,90,,administrator,Kong_han,administrator,PASS,20250627012446,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-20192-02-T\20250627011544\2@1623.jpg
+2,1604,Default,151-20059-00,U18,304.975,24.738,,301.3524,23.8564,270,,administrator,Kong_han,administrator,PASS,20250627012446,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-20192-02-T\20250627011544\2@1603.jpg
+2,1840,Default,202-20054-00,CTL1,284.772,19.875,,281.2241,18.8844,270,,administrator,Kong_han,administrator,PASS,20250627012446,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-20192-02-T\20250627011544\2@1839.jpg
+2,1740,Default,151-30004-00,U83,150.170,17.802,,146.6051,17.1431,90,,administrator,Si_yin_NG,administrator,PASS,20250627012446,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-20192-02-T\20250627011544\2@1739.jpg
+2,554,Default,100-60100-00,R786,102.552,7.108,,98.9881,6.5446,270,,administrator,Cuo_jian,administrator,PASS,20250627012446,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-20192-02-T\20250627011544\2@553.jpg
+2,1216,Default,100-00009-00,R867,49.000,34.436,,45.5125,33.9611,270,,administrator,Si_yin_NG,administrator,PASS,20250627012446,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-20192-02-T\20250627011544\2@1215.jpg
+[Window_INFO]

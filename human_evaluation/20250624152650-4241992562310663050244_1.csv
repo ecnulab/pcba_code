@@ -1,0 +1,18 @@
+[MACHINE_INFO]
+SerialNumber,SoftwareVersion,UserID,LineNo,LotNo
+A8HXL21-011,4.0.11001.27006,administrator,5,1
+[Board_INFO]
+Barcode,GroupName,ProgramName,Side,Lane,Length,Width,Conveyor,Fidu,Module,Part,FOV,StartInspTime,EndInspTime,Inspection time,Result
+4241992562310663050244,GDW-LC,290-10663-05-T,NONE,Front,176,282,174.00,2,1,483,15,20250624152637,20250624152650,13.776,USEROK
+[PANEL_INFO]
+ModuleID,Result,InspTime,ModuleBarcode,RepairTime,Part_Total,Part_Good,Part_NG,Part_UserOK,Part_Skip
+1,USEROK,20250624152637,4241992562310663050244,20250624153038,483,477,0,6,0
+[Part_INFO]
+ModuleID,PartNo,Packaged,PartName,RefID,PosX,PosY,Part_Angle,CAD_X,CAD_Y,CAD_Angle,AlgorismKind,InspUserID,InspResult,RepairUserID,RepairResult,RepairTime,DefectNumber,Image_Path 
+1,383,Default,100-50000-00,R233,158.525,42.086,,158.2912,41.9819,90,,administrator,Kong_han,administrator,PASS,20250624153038,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10663-05-T\20250624152637\1@383.jpg
+1,169,Default,160-23003-00,D50,167.286,18.197,,167.0645,18.0953,0,,administrator,Si_yin_NG,administrator,PASS,20250624153038,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10663-05-T\20250624152637\1@169.jpg
+1,137,Default,120-00138-00,C96,120.340,7.696,,120.1205,7.5714,0,,administrator,Pian_yi,administrator,PASS,20250624153038,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10663-05-T\20250624152637\1@137.jpg
+1,183,Default,161-30009-00,LED3,116.012,82.838,,115.7552,82.7168,270,,administrator,Si_yin_NG,administrator,PASS,20250624153038,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10663-05-T\20250624152637\1@183.jpg
+1,358,Default,100-00072-00,R18,41.972,122.768,,41.6905,122.6135,0,,administrator,Qiao_qi,administrator,PASS,20250624153038,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10663-05-T\20250624152637\1@358.jpg
+1,178,Default,141-50000-00,L13,76.549,53.921,,76.3033,53.778,180,,administrator,Si_yin_NG,administrator,PASS,20250624153038,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10663-05-T\20250624152637\1@178.jpg
+[Window_INFO]

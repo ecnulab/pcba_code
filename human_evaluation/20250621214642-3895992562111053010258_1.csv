@@ -1,0 +1,18 @@
+[MACHINE_INFO]
+SerialNumber,SoftwareVersion,UserID,LineNo,LotNo
+A8HXL21-011,4.0.11001.27006,administrator,5,1
+[Board_INFO]
+Barcode,GroupName,ProgramName,Side,Lane,Length,Width,Conveyor,Fidu,Module,Part,FOV,StartInspTime,EndInspTime,Inspection time,Result
+3895992562111053010258,GDW-LC,290-11053-01-T,NONE,Front,335,412,325.00,2,1,747,39,20250621214617,20250621214642,24.830,USEROK
+[PANEL_INFO]
+ModuleID,Result,InspTime,ModuleBarcode,RepairTime,Part_Total,Part_Good,Part_NG,Part_UserOK,Part_Skip
+1,USEROK,20250621214617,3895992562111053010258,20250621215039,747,741,0,6,0
+[Part_INFO]
+ModuleID,PartNo,Packaged,PartName,RefID,PosX,PosY,Part_Angle,CAD_X,CAD_Y,CAD_Angle,AlgorismKind,InspUserID,InspResult,RepairUserID,RepairResult,RepairTime,DefectNumber,Image_Path 
+1,738,Default,151-70037-00,U3,288.105,44.825,,288.4871,44.0697,0,,administrator,Si_yin_NG,administrator,PASS,20250621215039,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-11053-01-T\20250621214617\1@738.jpg
+1,300,Default,161-40000-00,D12,313.124,6.356,,313.3999,5.6013,180,,administrator,Kong_han,administrator,PASS,20250621215039,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-11053-01-T\20250621214617\1@300.jpg
+1,512,Default,100-13402-00,R137,310.383,21.059,,310.6679,20.3004,270,,administrator,Kong_han,administrator,PASS,20250621215039,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-11053-01-T\20250621214617\1@512.jpg
+1,535,Default,100-17470-00,R145,318.739,20.855,,319.0203,20.0916,90,,administrator,Kong_han,administrator,PASS,20250621215039,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-11053-01-T\20250621214617\1@535.jpg
+1,135,Default,125-00013-00,C35,281.001,64.753,,281.3225,63.9935,0,,administrator,Kong_han,administrator,PASS,20250621215039,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-11053-01-T\20250621214617\1@135.jpg
+1,742,Default,151-40084-00,U403,35.623,200.747,,36.1184,200.072,270,,administrator,Yin_jiao_Lift,administrator,PASS,20250621215039,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-11053-01-T\20250621214617\1@742.jpg
+[Window_INFO]

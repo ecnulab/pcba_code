@@ -1,0 +1,18 @@
+[MACHINE_INFO]
+SerialNumber,SoftwareVersion,UserID,LineNo,LotNo
+A8HXL21-011,4.0.11001.27006,administrator,5,1
+[Board_INFO]
+Barcode,GroupName,ProgramName,Side,Lane,Length,Width,Conveyor,Fidu,Module,Part,FOV,StartInspTime,EndInspTime,Inspection time,Result
+3895992562111053010266,GDW-LC,290-11053-01-T,NONE,Front,335,412,325.00,2,1,747,39,20250621233742,20250621233807,24.873,USEROK
+[PANEL_INFO]
+ModuleID,Result,InspTime,ModuleBarcode,RepairTime,Part_Total,Part_Good,Part_NG,Part_UserOK,Part_Skip
+1,USEROK,20250621233742,3895992562111053010266,20250621235213,747,741,0,6,0
+[Part_INFO]
+ModuleID,PartNo,Packaged,PartName,RefID,PosX,PosY,Part_Angle,CAD_X,CAD_Y,CAD_Angle,AlgorismKind,InspUserID,InspResult,RepairUserID,RepairResult,RepairTime,DefectNumber,Image_Path 
+1,719,Default,151-00063-00,U10,375.791,87.113,,376.0521,86.3549,180,,administrator,Qiao_qi,administrator,PASS,20250621235213,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-11053-01-T\20250621233742\1@719.jpg
+1,736,Default,151-40064-00,U5,321.867,32.698,,322.1286,32.1336,270,,administrator,Yin_jiao_Lift,administrator,PASS,20250621235213,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-11053-01-T\20250621233742\1@736.jpg
+1,334,Default,141-50000-00,L4,279.547,15.575,,279.8202,14.8842,180,,administrator,Si_yin_NG,administrator,PASS,20250621235213,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-11053-01-T\20250621233742\1@334.jpg
+1,463,Default,110-00015-00,R105,143.972,145.747,,144.3523,145.0564,270,,administrator,Pian_yi,administrator,PASS,20250621235213,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-11053-01-T\20250621233742\1@463.jpg
+1,335,Default,141-50000-00,L6,279.491,71.786,,279.7863,71.0723,180,,administrator,Si_yin_NG,administrator,PASS,20250621235213,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-11053-01-T\20250621233742\1@335.jpg
+1,53,Default,125-00014-00,C433,31.664,165.019,,32.0985,164.3648,90,,administrator,Kong_han,administrator,PASS,20250621235213,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-11053-01-T\20250621233742\1@53.jpg
+[Window_INFO]

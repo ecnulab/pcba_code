@@ -1,0 +1,18 @@
+[MACHINE_INFO]
+SerialNumber,SoftwareVersion,UserID,LineNo,LotNo
+A8HXL21-011,4.0.11001.27006,administrator,5,1
+[Board_INFO]
+Barcode,GroupName,ProgramName,Side,Lane,Length,Width,Conveyor,Fidu,Module,Part,FOV,StartInspTime,EndInspTime,Inspection time,Result
+3869992562110736020030,GDW-SCYZ,290-10736-02-T,NONE,Front,367,550,363.00,2,1,756,55,20250622061046,20250622061122,36.041,USEROK
+[PANEL_INFO]
+ModuleID,Result,InspTime,ModuleBarcode,RepairTime,Part_Total,Part_Good,Part_NG,Part_UserOK,Part_Skip
+1,USEROK,20250622061046,3869992562110736020030,20250622061725,755,749,0,6,0
+[Part_INFO]
+ModuleID,PartNo,Packaged,PartName,RefID,PosX,PosY,Part_Angle,CAD_X,CAD_Y,CAD_Angle,AlgorismKind,InspUserID,InspResult,RepairUserID,RepairResult,RepairTime,DefectNumber,Image_Path 
+1,162,Default,120-00099-00,C194,487.108,113.145,,488.0064,112.2594,90,,administrator,Pian_yi,administrator,PASS,20250622061725,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-10736-02-T\20250622061046\1@162.jpg
+1,658,Default,100-19330-00,R201,483.034,98.981,,483.9175,98.0927,90,,administrator,Qiao_qi,administrator,PASS,20250622061725,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-10736-02-T\20250622061046\1@658.jpg
+1,557,Default,100-52100-00,R48,395.124,65.284,,395.9333,64.4607,180,,administrator,Qiao_qi,administrator,PASS,20250622061725,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-10736-02-T\20250622061046\1@557.jpg
+1,187,Default,160-03002-00,D6,327.281,80.024,,328.0703,79.2712,90,,administrator,Si_yin_NG,administrator,PASS,20250622061725,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-10736-02-T\20250622061046\1@187.jpg
+1,745,Default,151-40012-00,U11,120.659,313.797,,121.6401,313.3517,180,,administrator,Kong_han,administrator,PASS,20250622061725,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-10736-02-T\20250622061046\1@745.jpg
+1,751,Default,151-40012-00,U7,71.670,314.126,,72.6271,313.7272,180,,administrator,Kong_han,administrator,PASS,20250622061725,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-10736-02-T\20250622061046\1@751.jpg
+[Window_INFO]

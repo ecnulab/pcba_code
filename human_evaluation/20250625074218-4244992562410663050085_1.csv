@@ -1,0 +1,18 @@
+[MACHINE_INFO]
+SerialNumber,SoftwareVersion,UserID,LineNo,LotNo
+A8HXL21-011,4.0.11001.27006,administrator,5,1
+[Board_INFO]
+Barcode,GroupName,ProgramName,Side,Lane,Length,Width,Conveyor,Fidu,Module,Part,FOV,StartInspTime,EndInspTime,Inspection time,Result
+4244992562410663050085,GDW-LC,290-10663-05-T,NONE,Front,176,282,174.00,2,1,483,15,20250625074206,20250625074218,11.706,USEROK
+[PANEL_INFO]
+ModuleID,Result,InspTime,ModuleBarcode,RepairTime,Part_Total,Part_Good,Part_NG,Part_UserOK,Part_Skip
+1,USEROK,20250625074206,4244992562410663050085,20250625074624,483,477,0,6,0
+[Part_INFO]
+ModuleID,PartNo,Packaged,PartName,RefID,PosX,PosY,Part_Angle,CAD_X,CAD_Y,CAD_Angle,AlgorismKind,InspUserID,InspResult,RepairUserID,RepairResult,RepairTime,DefectNumber,Image_Path 
+1,149,Default,184-30203-01,CN25,125.970,51.398,,125.8402,51.3492,180,,administrator,Yin_jiao_Lift,administrator,PASS,20250625074624,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10663-05-T\20250625074206\1@149.jpg
+1,458,Default,151-20081-00,U12,116.336,72.979,,116.197,72.9205,270,,administrator,Yin_jiao_Lift,administrator,PASS,20250625074624,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10663-05-T\20250625074206\1@458.jpg
+1,442,Default,120-00139-00,C188,185.850,104.820,,185.6053,105.0948,90,,administrator,Kong_han,administrator,PASS,20250625074624,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10663-05-T\20250625074206\1@442.jpg
+1,426,Default,100-51300-00,R325,163.392,83.909,,163.2385,83.8744,90,,administrator,Si_yin_NG,administrator,PASS,20250625074624,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10663-05-T\20250625074206\1@426.jpg
+1,423,Default,110-00015-00,R293,176.091,83.468,,175.9349,83.44,270,,administrator,COLOR,administrator,PASS,20250625074624,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10663-05-T\20250625074206\1@423.jpg
+1,144,Default,184-10297-00,CN10,163.968,113.278,,163.2723,113.4648,90,,administrator,Yin_jiao_Lift,administrator,PASS,20250625074624,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10663-05-T\20250625074206\1@144.jpg
+[Window_INFO]

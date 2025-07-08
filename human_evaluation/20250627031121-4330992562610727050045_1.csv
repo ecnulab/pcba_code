@@ -1,0 +1,18 @@
+[MACHINE_INFO]
+SerialNumber,SoftwareVersion,UserID,LineNo,LotNo
+A8HXL21-011,4.0.11001.27006,administrator,5,1
+[Board_INFO]
+Barcode,GroupName,ProgramName,Side,Lane,Length,Width,Conveyor,Fidu,Module,Part,FOV,StartInspTime,EndInspTime,Inspection time,Result
+4330992562610727050045,GDW-LC,290-10727-05-B,NONE,Front,176,282,174.00,2,1,440,16,20250627031046,20250627031121,34.928,USEROK
+[PANEL_INFO]
+ModuleID,Result,InspTime,ModuleBarcode,RepairTime,Part_Total,Part_Good,Part_NG,Part_UserOK,Part_Skip
+1,USEROK,20250627031046,4330992562610727050045,20250627031631,440,434,0,6,0
+[Part_INFO]
+ModuleID,PartNo,Packaged,PartName,RefID,PosX,PosY,Part_Angle,CAD_X,CAD_Y,CAD_Angle,AlgorismKind,InspUserID,InspResult,RepairUserID,RepairResult,RepairTime,DefectNumber,Image_Path 
+1,160,Default,160-10033-00,D44,171.016,61.338,,170.4836,61.5271,270,,administrator,Qiao_qi,administrator,PASS,20250627031631,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10727-05-B\20250627031046\1@160.jpg
+1,161,Default,160-10033-00,D45,149.596,61.299,,149.0945,61.5201,90,,administrator,Qiao_qi,administrator,PASS,20250627031631,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10727-05-B\20250627031046\1@161.jpg
+1,152,Default,160-10033-00,D36,178.053,61.351,,177.51,61.5294,270,,administrator,Qiao_qi,administrator,PASS,20250627031631,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10727-05-B\20250627031046\1@152.jpg
+1,158,Default,160-10033-00,D41,180.455,61.356,,179.9088,61.5302,270,,administrator,Qiao_qi,administrator,PASS,20250627031631,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10727-05-B\20250627031046\1@158.jpg
+1,393,Default,100-14100-00,R5,259.120,109.746,,258.533,109.7312,180,,administrator,Si_yin_NG,administrator,PASS,20250627031631,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10727-05-B\20250627031046\1@393.jpg
+1,188,Default,170-10018-00,Q19,219.240,73.438,,218.6551,73.5367,90,,administrator,Yin_jiao_Lift,administrator,PASS,20250627031631,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10727-05-B\20250627031046\1@188.jpg
+[Window_INFO]

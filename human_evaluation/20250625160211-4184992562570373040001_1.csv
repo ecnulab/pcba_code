@@ -1,0 +1,18 @@
+[MACHINE_INFO]
+SerialNumber,SoftwareVersion,UserID,LineNo,LotNo
+A8HXL21-011,4.0.11001.27006,administrator,5,1
+[Board_INFO]
+Barcode,GroupName,ProgramName,Side,Lane,Length,Width,Conveyor,Fidu,Module,Part,FOV,StartInspTime,EndInspTime,Inspection time,Result
+4184992562570373040001,GDW-LC,290-70373-04-T,NONE,Front,284,569,281.00,2,1,286,56,20250625160137,20250625160211,34.802,USEROK
+[PANEL_INFO]
+ModuleID,Result,InspTime,ModuleBarcode,RepairTime,Part_Total,Part_Good,Part_NG,Part_UserOK,Part_Skip
+1,USEROK,20250625160137,4184992562570373040001,20250625160601,284,278,0,6,0
+[Part_INFO]
+ModuleID,PartNo,Packaged,PartName,RefID,PosX,PosY,Part_Angle,CAD_X,CAD_Y,CAD_Angle,AlgorismKind,InspUserID,InspResult,RepairUserID,RepairResult,RepairTime,DefectNumber,Image_Path 
+1,26,Default,300-00776-00,JP80,456.261,251.880,,455.8758,251.6006,180,,administrator,Que_jian,administrator,PASS,20250625160601,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-70373-04-T\20250625160137\1@26.jpg
+1,48,Default,300-00776-00,JP135,403.963,238.736,,403.5548,238.4492,0,,administrator,Que_jian,administrator,PASS,20250625160601,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-70373-04-T\20250625160137\1@48.jpg
+1,49,Default,300-00776-00,JP136,403.966,243.560,,403.5569,243.2756,0,,administrator,Qiao_qi,administrator,PASS,20250625160601,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-70373-04-T\20250625160137\1@49.jpg
+1,313,Default,300-00766-00,P156,344.844,139.087,,344.4948,138.7452,0,,administrator,Que_jian,administrator,PASS,20250625160601,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-70373-04-T\20250625160137\1@313.jpg
+1,173,Default,300-00766-00,P250,405.043,195.618,,404.6367,195.3111,180,,administrator,Que_jian,administrator,PASS,20250625160601,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-70373-04-T\20250625160137\1@173.jpg
+1,174,Default,300-00766-00,P251,405.045,200.267,,404.6387,199.9624,180,,administrator,Que_jian,administrator,PASS,20250625160601,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-70373-04-T\20250625160137\1@174.jpg
+[Window_INFO]

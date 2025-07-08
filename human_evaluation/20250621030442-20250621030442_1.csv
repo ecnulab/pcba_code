@@ -1,0 +1,18 @@
+[MACHINE_INFO]
+SerialNumber,SoftwareVersion,UserID,LineNo,LotNo
+A8HXL21-011,4.0.11001.27006,administrator,5,1
+[Board_INFO]
+Barcode,GroupName,ProgramName,Side,Lane,Length,Width,Conveyor,Fidu,Module,Part,FOV,StartInspTime,EndInspTime,Inspection time,Result
+,GDW-LC,290-70453-01-T,NONE,Front,245,349,241.00,2,1,245,17,20250621030427,20250621030442,14.308,USEROK
+[PANEL_INFO]
+ModuleID,Result,InspTime,ModuleBarcode,RepairTime,Part_Total,Part_Good,Part_NG,Part_UserOK,Part_Skip
+1,USEROK,20250621030427,,20250621030856,245,239,0,6,0
+[Part_INFO]
+ModuleID,PartNo,Packaged,PartName,RefID,PosX,PosY,Part_Angle,CAD_X,CAD_Y,CAD_Angle,AlgorismKind,InspUserID,InspResult,RepairUserID,RepairResult,RepairTime,DefectNumber,Image_Path 
+1,240,Default,141-51000-00,L7,163.507,13.819,,163.6806,13.7972,0,,administrator,COLOR,administrator,PASS,20250621030856,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-70453-01-T\20250621030427\1@240.jpg
+1,35,Default,125-00014-00,C113,241.361,110.596,,241.7374,110.1072,180,,administrator,Qiao_qi,administrator,PASS,20250621030856,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-70453-01-T\20250621030427\1@35.jpg
+1,214,Default,151-00061-00,U18,239.451,121.399,,239.8708,120.8963,90,,administrator,Yin_jiao_Lift,administrator,PASS,20250621030856,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-70453-01-T\20250621030427\1@214.jpg
+1,119,Default,100-51499-00,R168,228.920,139.827,,229.4268,139.3275,90,,administrator,Si_yin_NG,administrator,PASS,20250621030856,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-70453-01-T\20250621030427\1@119.jpg
+1,217,Default,125-00003-00,C11,176.839,151.425,,177.4876,151.0927,90,,administrator,Qiao_qi,administrator,PASS,20250621030856,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-70453-01-T\20250621030427\1@217.jpg
+1,226,Default,125-00003-00,C97,158.045,217.179,,158.9676,216.7893,180,,administrator,Qiao_qi,administrator,PASS,20250621030856,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-70453-01-T\20250621030427\1@226.jpg
+[Window_INFO]

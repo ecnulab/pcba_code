@@ -1,0 +1,18 @@
+[MACHINE_INFO]
+SerialNumber,SoftwareVersion,UserID,LineNo,LotNo
+A8HXL21-011,4.0.11001.27006,administrator,5,1
+[Board_INFO]
+Barcode,GroupName,ProgramName,Side,Lane,Length,Width,Conveyor,Fidu,Module,Part,FOV,StartInspTime,EndInspTime,Inspection time,Result
+3895992562111053010067,GDW-LC,290-11053-01-B,NONE,Front,335,412,326.50,2,1,216,22,20250622005750,20250622005807,17.370,USEROK
+[PANEL_INFO]
+ModuleID,Result,InspTime,ModuleBarcode,RepairTime,Part_Total,Part_Good,Part_NG,Part_UserOK,Part_Skip
+1,USEROK,20250622005750,3895992562111053010067,20250622010150,215,209,0,6,0
+[Part_INFO]
+ModuleID,PartNo,Packaged,PartName,RefID,PosX,PosY,Part_Angle,CAD_X,CAD_Y,CAD_Angle,AlgorismKind,InspUserID,InspResult,RepairUserID,RepairResult,RepairTime,DefectNumber,Image_Path 
+1,76,Default,100-50100-00,R125,393.304,42.898,,393.4584,40.9401,270,,administrator,Jiao_du_NG,administrator,PASS,20250622010150,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-11053-01-B\20250622005750\1@76.jpg
+1,195,Default,161-10021-00,D17,121.546,109.285,,121.642,107.0905,270,,administrator,Si_yin_NG,administrator,PASS,20250622010150,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-11053-01-B\20250622005750\1@195.jpg
+1,196,Default,161-10021-00,D2,100.213,69.747,,100.3439,67.5331,90,,administrator,Kong_han,administrator,PASS,20250622010150,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-11053-01-B\20250622005750\1@196.jpg
+1,208,Default,160-02007-00,D5,74.957,41.113,,75.1132,38.8773,0,,administrator,Si_yin_NG,administrator,PASS,20250622010150,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-11053-01-B\20250622005750\1@208.jpg
+1,21,Default,125-00013-00,C82,59.316,75.911,,59.4412,73.6621,270,,administrator,Kong_han,administrator,PASS,20250622010150,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-11053-01-B\20250622005750\1@21.jpg
+1,188,Default,161-10005-00,D14,41.663,145.453,,41.7275,143.1879,0,,administrator,Si_yin_NG,administrator,PASS,20250622010150,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-11053-01-B\20250622005750\1@188.jpg
+[Window_INFO]

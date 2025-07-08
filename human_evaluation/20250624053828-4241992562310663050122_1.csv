@@ -1,0 +1,15 @@
+[MACHINE_INFO]
+SerialNumber,SoftwareVersion,UserID,LineNo,LotNo
+A8HXL21-011,4.0.11001.27006,administrator,5,1
+[Board_INFO]
+Barcode,GroupName,ProgramName,Side,Lane,Length,Width,Conveyor,Fidu,Module,Part,FOV,StartInspTime,EndInspTime,Inspection time,Result
+4241992562310663050122,GDW-LC,290-10663-05-B,NONE,Front,176,282,174.00,2,1,440,13,20250624053817,20250624053828,11.022,USEROK
+[PANEL_INFO]
+ModuleID,Result,InspTime,ModuleBarcode,RepairTime,Part_Total,Part_Good,Part_NG,Part_UserOK,Part_Skip
+1,USEROK,20250624053817,4241992562310663050122,20250624055047,440,437,0,3,0
+[Part_INFO]
+ModuleID,PartNo,Packaged,PartName,RefID,PosX,PosY,Part_Angle,CAD_X,CAD_Y,CAD_Angle,AlgorismKind,InspUserID,InspResult,RepairUserID,RepairResult,RepairTime,DefectNumber,Image_Path 
+1,244,Default,100-51499-00,R83,143.652,51.906,,143.60041809082,52.0231742858887,180,,administrator,OCR,administrator,PASS,20250624055047,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10663-05-B\20250624053817\1@244.jpg
+1,85,Default,125-00047-00,C311,176.157,82.362,,176.103927612305,82.4182739257813,180,,administrator,M_TOMBSTONE,administrator,PASS,20250624055047,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10663-05-B\20250624053817\1@85.jpg
+1,438,Default,100-50499-00,R503,145.834,66.515,,145.794540405273,66.6164474487305,180,,administrator,OCR,administrator,PASS,20250624055047,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10663-05-B\20250624053817\1@438.jpg
+[Window_INFO]

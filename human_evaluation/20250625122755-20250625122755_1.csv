@@ -1,0 +1,18 @@
+[MACHINE_INFO]
+SerialNumber,SoftwareVersion,UserID,LineNo,LotNo
+A8HXL21-011,4.0.11001.27006,administrator,5,1
+[Board_INFO]
+Barcode,GroupName,ProgramName,Side,Lane,Length,Width,Conveyor,Fidu,Module,Part,FOV,StartInspTime,EndInspTime,Inspection time,Result
+4179992562570278020096,GDW-LC,290-70278-02,NONE,Front,141,385,139.00,2,1,262,17,20250625122741,20250625122755,13.337,USEROK
+[PANEL_INFO]
+ModuleID,Result,InspTime,ModuleBarcode,RepairTime,Part_Total,Part_Good,Part_NG,Part_UserOK,Part_Skip
+1,USEROK,20250625122741,4179992562570278020096,20250625123156,261,255,0,6,0
+[Part_INFO]
+ModuleID,PartNo,Packaged,PartName,RefID,PosX,PosY,Part_Angle,CAD_X,CAD_Y,CAD_Angle,AlgorismKind,InspUserID,InspResult,RepairUserID,RepairResult,RepairTime,DefectNumber,Image_Path 
+1,192,Default,100-52221-00,R238,63.839,26.050,,64.3173,24.9707,0,,administrator,Kong_han,administrator,PASS,20250625123156,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-70278-02\20250625122741\1@192.jpg
+1,83,Default,121-80009-00,C225,152.440,8.239,,152.2713,6.4365,0,,administrator,Yin_jiao_Lift,administrator,PASS,20250625123156,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-70278-02\20250625122741\1@83.jpg
+1,94,Default,100-51100-00,R115,138.957,80.969,,139.312,79.9116,90,,administrator,Qiao_qi,administrator,PASS,20250625123156,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-70278-02\20250625122741\1@94.jpg
+1,21,Default,171-00003-00,Q103,91.451,94.339,,91.9494,93.3786,180,,administrator,Qiao_qi,administrator,PASS,20250625123156,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-70278-02\20250625122741\1@21.jpg
+1,23,Default,171-00003-00,Q105,201.696,10.682,,201.918,9.6613,180,,administrator,Qiao_qi,administrator,PASS,20250625123156,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-70278-02\20250625122741\1@23.jpg
+1,85,Default,121-80009-00,C229,253.515,31.990,,253.2401,30.0782,0,,administrator,Yin_jiao_Lift,administrator,PASS,20250625123156,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-70278-02\20250625122741\1@85.jpg
+[Window_INFO]

@@ -1,0 +1,18 @@
+[MACHINE_INFO]
+SerialNumber,SoftwareVersion,UserID,LineNo,LotNo
+A8HXL21-011,4.0.11001.27006,administrator,5,1
+[Board_INFO]
+Barcode,GroupName,ProgramName,Side,Lane,Length,Width,Conveyor,Fidu,Module,Part,FOV,StartInspTime,EndInspTime,Inspection time,Result
+3842992562010844020035,GDW-LC,290-10844-02-T-90,NONE,Front,383,375,383.00,2,1,627,39,20250621103238,20250621103304,26.093,USEROK
+[PANEL_INFO]
+ModuleID,Result,InspTime,ModuleBarcode,RepairTime,Part_Total,Part_Good,Part_NG,Part_UserOK,Part_Skip
+1,USEROK,20250621103238,3842992562010844020035,20250621103645,625,619,0,6,0
+[Part_INFO]
+ModuleID,PartNo,Packaged,PartName,RefID,PosX,PosY,Part_Angle,CAD_X,CAD_Y,CAD_Angle,AlgorismKind,InspUserID,InspResult,RepairUserID,RepairResult,RepairTime,DefectNumber,Image_Path 
+1,617,Default,151-40009-00,U503,157.590,194.070,,156.2681,194.0656,0,,administrator,Pian_yi,administrator,PASS,20250621103645,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10844-02-T-90\20250621103238\1@617.jpg
+1,609,Default,151-40009-00,U206,212.752,205.089,,211.439,205.0112,-180,,administrator,Pian_yi,administrator,PASS,20250621103645,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10844-02-T-90\20250621103238\1@609.jpg
+1,611,Default,151-40009-00,U401,195.562,321.522,,194.4033,321.4539,-270,,administrator,Pian_yi,administrator,PASS,20250621103645,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10844-02-T-90\20250621103238\1@611.jpg
+1,545,Default,109-00000-00,R420,160.455,341.447,,159.3261,341.4228,-90,,administrator,Pian_yi,administrator,PASS,20250621103645,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10844-02-T-90\20250621103238\1@545.jpg
+1,610,Default,151-40009-00,U400,195.606,371.759,,194.5127,371.6846,-270,,administrator,Pian_yi,administrator,PASS,20250621103645,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10844-02-T-90\20250621103238\1@610.jpg
+1,614,Default,151-40009-00,U404,195.581,343.516,,194.4512,343.4454,-270,,administrator,Pian_yi,administrator,PASS,20250621103645,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10844-02-T-90\20250621103238\1@614.jpg
+[Window_INFO]

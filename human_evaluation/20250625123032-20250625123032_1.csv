@@ -1,0 +1,18 @@
+[MACHINE_INFO]
+SerialNumber,SoftwareVersion,UserID,LineNo,LotNo
+A8HXL21-011,4.0.11001.27006,administrator,5,1
+[Board_INFO]
+Barcode,GroupName,ProgramName,Side,Lane,Length,Width,Conveyor,Fidu,Module,Part,FOV,StartInspTime,EndInspTime,Inspection time,Result
+4179992562570278020063,GDW-LC,290-70278-02,NONE,Front,141,385,139.00,2,1,262,17,20250625123018,20250625123032,14.243,USEROK
+[PANEL_INFO]
+ModuleID,Result,InspTime,ModuleBarcode,RepairTime,Part_Total,Part_Good,Part_NG,Part_UserOK,Part_Skip
+1,USEROK,20250625123018,4179992562570278020063,20250625123503,261,255,0,6,0
+[Part_INFO]
+ModuleID,PartNo,Packaged,PartName,RefID,PosX,PosY,Part_Angle,CAD_X,CAD_Y,CAD_Angle,AlgorismKind,InspUserID,InspResult,RepairUserID,RepairResult,RepairTime,DefectNumber,Image_Path 
+1,195,Default,100-52130-00,R245,55.953,27.949,,56.3216,26.9737,0,,administrator,Kong_han,administrator,PASS,20250625123503,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-70278-02\20250625123018\1@195.jpg
+1,125,Default,100-52100-00,R224,81.467,40.069,,81.8167,39.0564,0,,administrator,Kong_han,administrator,PASS,20250625123503,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-70278-02\20250625123018\1@125.jpg
+1,181,Default,100-52300-00,R215,84.974,30.263,,85.3105,29.2589,0,,administrator,Kong_han,administrator,PASS,20250625123503,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-70278-02\20250625123018\1@181.jpg
+1,212,Default,161-10004-00,D104,91.251,90.109,,91.6344,89.0306,0,,administrator,Si_yin_NG,administrator,PASS,20250625123503,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-70278-02\20250625123018\1@212.jpg
+1,89,Default,100-13270-00,R113,265.479,79.049,,265.6517,77.8271,90,,administrator,Kong_han,administrator,PASS,20250625123503,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-70278-02\20250625123018\1@89.jpg
+1,223,Default,161-10005-00,D106,231.904,40.014,,232.0802,38.8666,180,,administrator,Kong_han,administrator,PASS,20250625123503,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-70278-02\20250625123018\1@223.jpg
+[Window_INFO]

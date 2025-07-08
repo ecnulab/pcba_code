@@ -1,0 +1,18 @@
+[MACHINE_INFO]
+SerialNumber,SoftwareVersion,UserID,LineNo,LotNo
+A8HXL21-011,4.0.11001.27006,administrator,5,1
+[Board_INFO]
+Barcode,GroupName,ProgramName,Side,Lane,Length,Width,Conveyor,Fidu,Module,Part,FOV,StartInspTime,EndInspTime,Inspection time,Result
+4140992562610845020013,GDW-LC,290-10845-02-T-90,NONE,Front,393,375,383.00,2,1,606,38,20250626222035,20250626222108,32.339,USEROK
+[PANEL_INFO]
+ModuleID,Result,InspTime,ModuleBarcode,RepairTime,Part_Total,Part_Good,Part_NG,Part_UserOK,Part_Skip
+1,USEROK,20250626222035,4140992562610845020013,20250626222600,606,600,0,6,0
+[Part_INFO]
+ModuleID,PartNo,Packaged,PartName,RefID,PosX,PosY,Part_Angle,CAD_X,CAD_Y,CAD_Angle,AlgorismKind,InspUserID,InspResult,RepairUserID,RepairResult,RepairTime,DefectNumber,Image_Path 
+1,211,Default,160-10037-00,D102,315.034,218.723,,313.6299,228.9995,-90,,administrator,Pian_yi,administrator,PASS,20250626222600,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10845-02-T-90\20250626222035\1@211.jpg
+1,213,Default,160-10037-00,D107,330.809,218.680,,329.4018,228.9645,-90,,administrator,Pian_yi,administrator,PASS,20250626222600,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10845-02-T-90\20250626222035\1@213.jpg
+1,579,Default,151-00081-00,U100,278.071,213.625,,276.6779,223.8826,0,,administrator,Yin_jiao_Lift,administrator,PASS,20250626222600,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10845-02-T-90\20250626222035\1@579.jpg
+1,235,Default,161-10009-00,D601,321.415,360.748,,320.5427,370.9483,-270,,administrator,Pian_yi,administrator,PASS,20250626222600,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10845-02-T-90\20250626222035\1@235.jpg
+1,600,Default,151-04004-00,U601,289.392,347.066,,287.9246,357.299,-90,,administrator,Yin_jiao_Lift,administrator,PASS,20250626222600,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10845-02-T-90\20250626222035\1@600.jpg
+1,367,Default,100-52100-00,R623,70.565,192.497,,69.2306,202.6476,-180,,administrator,Kong_han,administrator,PASS,20250626222600,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10845-02-T-90\20250626222035\1@367.jpg
+[Window_INFO]

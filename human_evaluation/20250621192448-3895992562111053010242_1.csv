@@ -1,0 +1,18 @@
+[MACHINE_INFO]
+SerialNumber,SoftwareVersion,UserID,LineNo,LotNo
+A8HXL21-011,4.0.11001.27006,administrator,5,1
+[Board_INFO]
+Barcode,GroupName,ProgramName,Side,Lane,Length,Width,Conveyor,Fidu,Module,Part,FOV,StartInspTime,EndInspTime,Inspection time,Result
+3895992562111053010242,GDW-LC,290-11053-01-B,NONE,Front,335,412,326.50,2,1,216,22,20250621192431,20250621192448,16.903,USEROK
+[PANEL_INFO]
+ModuleID,Result,InspTime,ModuleBarcode,RepairTime,Part_Total,Part_Good,Part_NG,Part_UserOK,Part_Skip
+1,USEROK,20250621192431,3895992562111053010242,20250621192829,215,209,0,6,0
+[Part_INFO]
+ModuleID,PartNo,Packaged,PartName,RefID,PosX,PosY,Part_Angle,CAD_X,CAD_Y,CAD_Angle,AlgorismKind,InspUserID,InspResult,RepairUserID,RepairResult,RepairTime,DefectNumber,Image_Path 
+1,69,Default,100-51499-00,R261,328.429,46.043,,328.6355,44.7277,0,,administrator,Kong_han,administrator,PASS,20250621192829,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-11053-01-B\20250621192431\1@69.jpg
+1,104,Default,100-18220-00,R205,110.018,23.536,,110.4777,21.7846,180,,administrator,Kong_han,administrator,PASS,20250621192829,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-11053-01-B\20250621192431\1@104.jpg
+1,147,Default,125-00033-00,C236,72.572,45.729,,73.0207,43.8785,0,,administrator,Kong_han,administrator,PASS,20250621192829,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-11053-01-B\20250621192431\1@147.jpg
+1,148,Default,125-00033-00,C237,55.983,48.338,,56.4419,46.4504,270,,administrator,Kong_han,administrator,PASS,20250621192829,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-11053-01-B\20250621192431\1@148.jpg
+1,67,Default,100-51499-00,R251,47.424,86.642,,47.8103,84.7743,0,,administrator,Kong_han,administrator,PASS,20250621192829,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-11053-01-B\20250621192431\1@67.jpg
+1,90,Default,100-17100-00,R13,33.006,177.847,,33.2151,175.7886,270,,administrator,Kong_han,administrator,PASS,20250621192829,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-11053-01-B\20250621192431\1@90.jpg
+[Window_INFO]

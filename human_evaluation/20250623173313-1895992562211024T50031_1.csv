@@ -1,0 +1,27 @@
+[MACHINE_INFO]
+SerialNumber,SoftwareVersion,UserID,LineNo,LotNo
+A8HXL21-011,4.0.11001.27006,administrator,5,1
+[Board_INFO]
+Barcode,GroupName,ProgramName,Side,Lane,Length,Width,Conveyor,Fidu,Module,Part,FOV,StartInspTime,EndInspTime,Inspection time,Result
+1895992562211024T50031,GDW-ZD,290-11024-T5-B-ZD,NONE,Front,199,327,196.00,2,1,447,26,20250623173258,20250623173313,14.922,USEROK
+[PANEL_INFO]
+ModuleID,Result,InspTime,ModuleBarcode,RepairTime,Part_Total,Part_Good,Part_NG,Part_UserOK,Part_Skip
+1,USEROK,20250623173258,1895992562211024T50031,20250623173712,446,431,0,15,0
+[Part_INFO]
+ModuleID,PartNo,Packaged,PartName,RefID,PosX,PosY,Part_Angle,CAD_X,CAD_Y,CAD_Angle,AlgorismKind,InspUserID,InspResult,RepairUserID,RepairResult,RepairTime,DefectNumber,Image_Path 
+1,224,Default,170-10018-00,Q8,283.321,186.536,,283.3109,186.273,180,,administrator,Yin_jiao_Lift,administrator,PASS,20250623173712,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-ZD\290-11024-T5-B-ZD\20250623173258\1@224.jpg
+1,225,Default,170-10018-00,Q9,261.126,186.196,,261.123,185.9876,0,,administrator,Yin_jiao_Lift,administrator,PASS,20250623173712,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-ZD\290-11024-T5-B-ZD\20250623173258\1@225.jpg
+1,388,Default,100-00055-00,R54,262.732,98.215,,262.5139,98.0314,0,,administrator,Qiao_qi,administrator,PASS,20250623173712,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-ZD\290-11024-T5-B-ZD\20250623173258\1@388.jpg
+1,443,Default,142-10092-00,U27,264.922,81.572,,264.6624,81.389,180,,administrator,Si_yin_NG,administrator,PASS,20250623173712,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-ZD\290-11024-T5-B-ZD\20250623173258\1@443.jpg
+1,374,Default,100-52130-00,R376,186.418,16.275,,186.0246,16.3056,180,,administrator,Si_yin_NG,administrator,PASS,20250623173712,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-ZD\290-11024-T5-B-ZD\20250623173258\1@374.jpg
+1,410,Default,100-52120-00,R372,179.222,21.177,,178.843,21.2235,90,,administrator,Jiao_du_NG,administrator,PASS,20250623173712,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-ZD\290-11024-T5-B-ZD\20250623173258\1@410.jpg
+1,437,Default,151-00061-00,U13,192.018,19.272,,191.6299,19.2875,180,,administrator,Yin_jiao_Lift,administrator,PASS,20250623173712,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-ZD\290-11024-T5-B-ZD\20250623173258\1@437.jpg
+1,285,Default,100-10510-00,R304,211.060,122.736,,210.9187,122.6706,90,,administrator,Si_yin_NG,administrator,PASS,20250623173712,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-ZD\290-11024-T5-B-ZD\20250623173258\1@285.jpg
+1,370,Default,100-51649-00,R269,189.683,161.635,,189.6441,161.6094,180,,administrator,Kong_han,administrator,PASS,20250623173712,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-ZD\290-11024-T5-B-ZD\20250623173258\1@370.jpg
+1,371,Default,100-58220-00,R273,171.793,173.740,,171.7898,173.7541,270,,administrator,Kong_han,administrator,PASS,20250623173712,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-ZD\290-11024-T5-B-ZD\20250623173258\1@371.jpg
+1,402,Default,100-60100-00,R359,145.396,188.549,,145.4374,188.6218,90,,administrator,BODYLENGTH,administrator,PASS,20250623173712,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-ZD\290-11024-T5-B-ZD\20250623173258\1@402.jpg
+1,438,Default,151-00026-00,U16,172.895,177.339,,172.8996,177.3487,270,,administrator,Yin_jiao_Lift,administrator,PASS,20250623173712,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-ZD\290-11024-T5-B-ZD\20250623173258\1@438.jpg
+1,147,Default,160-03020-00,D32,151.987,148.856,,151.9294,148.9263,270,,administrator,Si_yin_NG,administrator,PASS,20250623173712,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-ZD\290-11024-T5-B-ZD\20250623173258\1@147.jpg
+1,37,Default,125-00013-00,C236,114.998,150.572,,114.9563,150.7326,0,,administrator,BODYAREA,administrator,PASS,20250623173712,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-ZD\290-11024-T5-B-ZD\20250623173258\1@37.jpg
+1,434,Default,142-10091-00,U10,46.143,100.722,,46.0026,101.067,270,,administrator,Yin_jiao_Lift,administrator,PASS,20250623173712,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-ZD\290-11024-T5-B-ZD\20250623173258\1@434.jpg
+[Window_INFO]

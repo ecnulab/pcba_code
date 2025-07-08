@@ -1,0 +1,18 @@
+[MACHINE_INFO]
+SerialNumber,SoftwareVersion,UserID,LineNo,LotNo
+A8HXL21-011,4.0.11001.27006,administrator,5,1
+[Board_INFO]
+Barcode,GroupName,ProgramName,Side,Lane,Length,Width,Conveyor,Fidu,Module,Part,FOV,StartInspTime,EndInspTime,Inspection time,Result
+4151992562620192020006,GDW-LC,290-20192-02-B,NONE,Front,172,405,171.20,2,2,1860,32,20250627001318,20250627001338,19.973,USEROK
+[PANEL_INFO]
+ModuleID,Result,InspTime,ModuleBarcode,RepairTime,Part_Total,Part_Good,Part_NG,Part_UserOK,Part_Skip
+1,USEROK,20250627001318,4151992562620192020006,20250627001808,930,924,0,6,0
+[Part_INFO]
+ModuleID,PartNo,Packaged,PartName,RefID,PosX,PosY,Part_Angle,CAD_X,CAD_Y,CAD_Angle,AlgorismKind,InspUserID,InspResult,RepairUserID,RepairResult,RepairTime,DefectNumber,Image_Path 
+1,697,Default,125-00033-00,C462,374.607,11.460,,371.2924,10.1095,0,,administrator,Qiao_qi,administrator,PASS,20250627001808,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-20192-02-B\20250627001318\1@697.jpg
+1,747,Default,125-00016-00,C669,369.515,44.086,,366.3111,42.7902,180,,administrator,Pian_yi,administrator,PASS,20250627001808,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-20192-02-B\20250627001318\1@747.jpg
+1,753,Default,125-00016-00,C673,384.866,41.699,,381.648,40.39,180,,administrator,Pian_yi,administrator,PASS,20250627001808,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-20192-02-B\20250627001318\1@753.jpg
+1,757,Default,125-00016-00,C675,379.855,41.696,,376.6412,40.3924,180,,administrator,Pian_yi,administrator,PASS,20250627001808,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-20192-02-B\20250627001318\1@757.jpg
+1,1039,Default,171-00003-00,Q23,356.288,49.998,,352.8012,48.7106,180,,administrator,Yin_jiao_Lift,administrator,PASS,20250627001808,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-20192-02-B\20250627001318\1@1039.jpg
+1,1869,Default,170-20065-00,Q3,51.135,36.051,,48.0155,35.0779,0,,administrator,Si_yin_NG,administrator,PASS,20250627001808,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-20192-02-B\20250627001318\1@1869.jpg
+[Window_INFO]

@@ -1,0 +1,18 @@
+[MACHINE_INFO]
+SerialNumber,SoftwareVersion,UserID,LineNo,LotNo
+A8HXL21-011,4.0.11001.27006,administrator,5,1
+[Board_INFO]
+Barcode,GroupName,ProgramName,Side,Lane,Length,Width,Conveyor,Fidu,Module,Part,FOV,StartInspTime,EndInspTime,Inspection time,Result
+4179992562570278020044,GDW-LC,290-70278-02,NONE,Front,141,385,139.00,2,1,262,17,20250625124724,20250625124737,13.278,USEROK
+[PANEL_INFO]
+ModuleID,Result,InspTime,ModuleBarcode,RepairTime,Part_Total,Part_Good,Part_NG,Part_UserOK,Part_Skip
+1,USEROK,20250625124724,4179992562570278020044,20250625125129,261,255,0,6,0
+[Part_INFO]
+ModuleID,PartNo,Packaged,PartName,RefID,PosX,PosY,Part_Angle,CAD_X,CAD_Y,CAD_Angle,AlgorismKind,InspUserID,InspResult,RepairUserID,RepairResult,RepairTime,DefectNumber,Image_Path 
+1,195,Default,100-52130-00,R245,56.379,28.077,,56.3216,26.9737,0,,administrator,Si_yin_NG,administrator,PASS,20250625125129,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-70278-02\20250625124724\1@195.jpg
+1,200,Default,151-05002-00,U201,78.874,31.573,,78.8138,30.4615,270,,administrator,Si_yin_NG,administrator,PASS,20250625125129,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-70278-02\20250625124724\1@200.jpg
+1,100,Default,100-51100-00,R182,258.841,107.333,,258.7741,106.1434,180,,administrator,Qiao_qi,administrator,PASS,20250625125129,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-70278-02\20250625124724\1@100.jpg
+1,117,Default,100-52100-00,R177,197.743,10.314,,197.6535,9.1636,90,,administrator,Kong_han,administrator,PASS,20250625125129,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-70278-02\20250625124724\1@117.jpg
+1,172,Default,100-51510-00,R263,246.333,20.555,,246.2379,19.386,0,,administrator,Qiao_qi,administrator,PASS,20250625125129,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-70278-02\20250625124724\1@172.jpg
+1,57,Default,100-14100-00,R141,352.994,97.624,,352.9068,96.4025,180,,administrator,Si_yin_NG,administrator,PASS,20250625125129,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-70278-02\20250625124724\1@57.jpg
+[Window_INFO]

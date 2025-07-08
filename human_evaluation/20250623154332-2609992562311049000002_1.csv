@@ -1,0 +1,27 @@
+[MACHINE_INFO]
+SerialNumber,SoftwareVersion,UserID,LineNo,LotNo
+A8HXL21-011,4.0.11001.27006,administrator,5,1
+[Board_INFO]
+Barcode,GroupName,ProgramName,Side,Lane,Length,Width,Conveyor,Fidu,Module,Part,FOV,StartInspTime,EndInspTime,Inspection time,Result
+2609992562311049000002,GDW-SCYZ,290-11049-00-T,NONE,Front,471,484,466.00,2,1,1499,71,20250623154251,20250623154332,41.388,USEROK
+[PANEL_INFO]
+ModuleID,Result,InspTime,ModuleBarcode,RepairTime,Part_Total,Part_Good,Part_NG,Part_UserOK,Part_Skip
+1,USEROK,20250623154251,2609992562311049000002,20250623154816,1499,1484,0,15,0
+[Part_INFO]
+ModuleID,PartNo,Packaged,PartName,RefID,PosX,PosY,Part_Angle,CAD_X,CAD_Y,CAD_Angle,AlgorismKind,InspUserID,InspResult,RepairUserID,RepairResult,RepairTime,DefectNumber,Image_Path 
+1,1097,Default,151-40064-00,U24,457.074,96.549,,457.0163,95.6583,180,,administrator,Pian_yi,administrator,PASS,20250623154816,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-11049-00-T\20250623154251\1@1097.jpg
+1,1373,Default,209-00034-00,P48,278.603,114.738,,278.5498,113.7765,90,,administrator,Que_jian,administrator,PASS,20250623154816,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-11049-00-T\20250623154251\1@1373.jpg
+1,1325,Default,300-00776-00,JP26,269.356,131.988,,269.2971,131.0225,90,,administrator,Que_jian,administrator,PASS,20250623154816,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-11049-00-T\20250623154251\1@1325.jpg
+1,825,Default,100-51150-00,R267,464.338,208.250,,464.2359,207.3553,0,,administrator,Kong_han,administrator,PASS,20250623154816,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-11049-00-T\20250623154251\1@825.jpg
+1,918,Default,100-50100-00,R170,459.705,206.555,,459.6038,205.658,0,,administrator,Kong_han,administrator,PASS,20250623154816,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-11049-00-T\20250623154251\1@918.jpg
+1,919,Default,100-50100-00,R173,459.706,208.204,,459.6045,207.3074,0,,administrator,Shao_xi,administrator,PASS,20250623154816,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-11049-00-T\20250623154251\1@919.jpg
+1,921,Default,100-50100-00,R177,459.742,211.653,,459.6391,210.7561,0,,administrator,Kong_han,administrator,PASS,20250623154816,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-11049-00-T\20250623154251\1@921.jpg
+1,520,Default,100-52130-00,R859,398.208,359.165,,398.0512,358.2345,90,,administrator,Kong_han,administrator,PASS,20250623154816,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-11049-00-T\20250623154251\1@520.jpg
+1,1074,Default,180-00076-00,RLY1,104.379,13.114,,104.3768,12.0915,180,,administrator,Yin_jiao_Lift,administrator,PASS,20250623154816,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-11049-00-T\20250623154251\1@1074.jpg
+1,1096,Default,151-40064-00,U20,53.010,95.718,,52.9794,94.6699,180,,administrator,Pian_yi,administrator,PASS,20250623154816,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-11049-00-T\20250623154251\1@1096.jpg
+1,1102,Default,151-00063-00,U22,48.317,102.244,,48.2841,101.1936,0,,administrator,Qiao_qi,administrator,PASS,20250623154816,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-11049-00-T\20250623154251\1@1102.jpg
+1,1289,Default,161-40000-00,D41,49.452,112.681,,49.4155,111.6303,180,,administrator,Yin_jiao_Lift,administrator,PASS,20250623154816,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-11049-00-T\20250623154251\1@1289.jpg
+1,1503,Default,171-00004-00,Q12,51.019,105.756,,50.9848,104.7071,0,,administrator,Yin_jiao_Lift,administrator,PASS,20250623154816,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-11049-00-T\20250623154251\1@1503.jpg
+1,851,Default,100-53100-00,R385,42.925,195.997,,42.8561,194.9389,270,,administrator,Kong_han,administrator,PASS,20250623154816,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-11049-00-T\20250623154251\1@851.jpg
+1,826,Default,100-51560-00,R377,34.385,223.699,,34.3059,222.6357,180,,administrator,Si_yin_NG,administrator,PASS,20250623154816,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-11049-00-T\20250623154251\1@826.jpg
+[Window_INFO]

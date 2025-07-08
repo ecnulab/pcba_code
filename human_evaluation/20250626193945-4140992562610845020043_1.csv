@@ -1,0 +1,18 @@
+[MACHINE_INFO]
+SerialNumber,SoftwareVersion,UserID,LineNo,LotNo
+A8HXL21-011,4.0.11001.27006,administrator,5,1
+[Board_INFO]
+Barcode,GroupName,ProgramName,Side,Lane,Length,Width,Conveyor,Fidu,Module,Part,FOV,StartInspTime,EndInspTime,Inspection time,Result
+4140992562610845020043,GDW-LC,290-10845-02-B,NONE,Front,395,378,383.00,2,1,248,27,20250626193927,20250626193945,18.558,USEROK
+[PANEL_INFO]
+ModuleID,Result,InspTime,ModuleBarcode,RepairTime,Part_Total,Part_Good,Part_NG,Part_UserOK,Part_Skip
+1,USEROK,20250626193927,4140992562610845020043,20250626194338,247,241,0,6,0
+[Part_INFO]
+ModuleID,PartNo,Packaged,PartName,RefID,PosX,PosY,Part_Angle,CAD_X,CAD_Y,CAD_Angle,AlgorismKind,InspUserID,InspResult,RepairUserID,RepairResult,RepairTime,DefectNumber,Image_Path 
+1,189,Default,100-27470-00,R669,52.524,358.941,,46.8314,358.1861,90,,administrator,Qiao_qi,administrator,PASS,20250626194338,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10845-02-B\20250626193927\1@189.jpg
+1,165,Default,125-00113-00,C614,83.958,349.321,,78.2247,348.5113,-90,,administrator,Kong_han,administrator,PASS,20250626194338,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10845-02-B\20250626193927\1@165.jpg
+1,216,Default,161-10005-00,D500,249.084,69.372,,242.6868,68.4341,0,,administrator,Kong_han,administrator,PASS,20250626194338,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10845-02-B\20250626193927\1@216.jpg
+1,217,Default,161-10005-00,D502,344.427,76.376,,337.977,75.2469,180,,administrator,Kong_han,administrator,PASS,20250626194338,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10845-02-B\20250626193927\1@217.jpg
+1,134,Default,100-14220-00,R556,334.250,131.204,,327.9152,130.0563,180,,administrator,Kong_han,administrator,PASS,20250626194338,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10845-02-B\20250626193927\1@134.jpg
+1,164,Default,100-52200-00,R538,369.772,143.891,,363.4363,142.6652,-90,,administrator,Si_yin_NG,administrator,PASS,20250626194338,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10845-02-B\20250626193927\1@164.jpg
+[Window_INFO]

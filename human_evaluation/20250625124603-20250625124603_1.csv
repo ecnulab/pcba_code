@@ -1,0 +1,18 @@
+[MACHINE_INFO]
+SerialNumber,SoftwareVersion,UserID,LineNo,LotNo
+A8HXL21-011,4.0.11001.27006,administrator,5,1
+[Board_INFO]
+Barcode,GroupName,ProgramName,Side,Lane,Length,Width,Conveyor,Fidu,Module,Part,FOV,StartInspTime,EndInspTime,Inspection time,Result
+4179992562570278020041,GDW-LC,290-70278-02,NONE,Front,141,385,139.00,2,1,262,17,20250625124549,20250625124603,13.545,USEROK
+[PANEL_INFO]
+ModuleID,Result,InspTime,ModuleBarcode,RepairTime,Part_Total,Part_Good,Part_NG,Part_UserOK,Part_Skip
+1,USEROK,20250625124549,4179992562570278020041,20250625125103,261,255,0,6,0
+[Part_INFO]
+ModuleID,PartNo,Packaged,PartName,RefID,PosX,PosY,Part_Angle,CAD_X,CAD_Y,CAD_Angle,AlgorismKind,InspUserID,InspResult,RepairUserID,RepairResult,RepairTime,DefectNumber,Image_Path 
+1,200,Default,151-05002-00,U201,78.783,31.553,,78.8138,30.4615,270,,administrator,Si_yin_NG,administrator,PASS,20250625125103,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-70278-02\20250625124549\1@200.jpg
+1,31,Default,171-00001-00,Q204,78.081,36.951,,78.1167,35.8595,0,,administrator,Si_yin_NG,administrator,PASS,20250625125103,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-70278-02\20250625124549\1@31.jpg
+1,177,Default,100-51300-00,R208,72.783,34.050,,72.8175,32.9633,180,,administrator,Si_yin_NG,administrator,PASS,20250625125103,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-70278-02\20250625124549\1@177.jpg
+1,181,Default,100-52300-00,R215,85.282,30.355,,85.3105,29.2589,0,,administrator,Kong_han,administrator,PASS,20250625125103,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-70278-02\20250625124549\1@181.jpg
+1,100,Default,100-51100-00,R182,258.712,107.397,,258.7741,106.1434,180,,administrator,Si_yin_NG,administrator,PASS,20250625125103,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-70278-02\20250625124549\1@100.jpg
+1,201,Default,151-05002-00,U204,247.097,14.481,,247.0846,13.2532,270,,administrator,Yin_jiao_Lift,administrator,PASS,20250625125103,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-70278-02\20250625124549\1@201.jpg
+[Window_INFO]

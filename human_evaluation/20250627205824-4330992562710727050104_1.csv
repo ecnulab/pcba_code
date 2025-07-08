@@ -1,0 +1,18 @@
+[MACHINE_INFO]
+SerialNumber,SoftwareVersion,UserID,LineNo,LotNo
+A8HXL21-011,4.0.11001.27006,administrator,5,1
+[Board_INFO]
+Barcode,GroupName,ProgramName,Side,Lane,Length,Width,Conveyor,Fidu,Module,Part,FOV,StartInspTime,EndInspTime,Inspection time,Result
+4330992562710727050104,GDW-LC,290-10727-05-T,NONE,Front,176,282,174.00,2,1,482,16,20250627205811,20250627205824,13.126,USEROK
+[PANEL_INFO]
+ModuleID,Result,InspTime,ModuleBarcode,RepairTime,Part_Total,Part_Good,Part_NG,Part_UserOK,Part_Skip
+1,USEROK,20250627205811,4330992562710727050104,20250627210704,482,476,0,6,0
+[Part_INFO]
+ModuleID,PartNo,Packaged,PartName,RefID,PosX,PosY,Part_Angle,CAD_X,CAD_Y,CAD_Angle,AlgorismKind,InspUserID,InspResult,RepairUserID,RepairResult,RepairTime,DefectNumber,Image_Path 
+1,197,Default,170-10011-00,Q12,239.865,87.000,,239.114,87.0659,180,,administrator,Yin_jiao_Lift,administrator,PASS,20250627210704,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10727-05-T\20250627205811\1@197.jpg
+1,196,Default,170-10011-00,Q11,239.990,105.838,,239.223,105.9049,180,,administrator,Si_yin_NG,administrator,PASS,20250627210704,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10727-05-T\20250627205811\1@196.jpg
+1,461,Default,151-20025-00,U9,141.009,49.423,,140.2881,49.2575,270,,administrator,Kong_han,administrator,PASS,20250627210704,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10727-05-T\20250627205811\1@461.jpg
+1,476,Default,151-20086-00,U36,127.925,72.460,,127.1841,72.4341,180,,administrator,Yin_jiao_Lift,administrator,PASS,20250627210704,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10727-05-T\20250627205811\1@476.jpg
+1,457,Default,151-20015-00,U33,116.471,90.350,,115.716,90.3143,270,,administrator,Pian_yi,administrator,PASS,20250627210704,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10727-05-T\20250627205811\1@457.jpg
+1,428,Default,100-53499-00,R338,142.994,85.962,,142.2427,85.9481,270,,administrator,Si_yin_NG,administrator,PASS,20250627210704,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10727-05-T\20250627205811\1@428.jpg
+[Window_INFO]

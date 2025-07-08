@@ -1,0 +1,18 @@
+[MACHINE_INFO]
+SerialNumber,SoftwareVersion,UserID,LineNo,LotNo
+A8HXL21-011,4.0.11001.27006,administrator,5,1
+[Board_INFO]
+Barcode,GroupName,ProgramName,Side,Lane,Length,Width,Conveyor,Fidu,Module,Part,FOV,StartInspTime,EndInspTime,Inspection time,Result
+3841992562010743000030,GDW-LC,290-10743-00-T,NONE,Front,345,506,341.00,2,1,428,54,20250620232924,20250620232957,33.360,USEROK
+[PANEL_INFO]
+ModuleID,Result,InspTime,ModuleBarcode,RepairTime,Part_Total,Part_Good,Part_NG,Part_UserOK,Part_Skip
+1,USEROK,20250620232924,3841992562010743000030,20250620234357,428,422,0,6,0
+[Part_INFO]
+ModuleID,PartNo,Packaged,PartName,RefID,PosX,PosY,Part_Angle,CAD_X,CAD_Y,CAD_Angle,AlgorismKind,InspUserID,InspResult,RepairUserID,RepairResult,RepairTime,DefectNumber,Image_Path 
+1,147,Default,184-30170-00,CN710,387.579,274.678,,386.9375,272.9073,180,,administrator,Cuo_jian,administrator,PASS,20250620234357,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10743-00-T\20250620232924\1@147.jpg
+1,284,Default,161-10014-00,D616,304.567,93.055,,304.0114,91.3148,90,,administrator,Si_yin_NG,administrator,PASS,20250620234357,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10743-00-T\20250620232924\1@284.jpg
+1,280,Default,161-10014-00,D612,435.674,87.396,,435.0783,85.7001,180,,administrator,Si_yin_NG,administrator,PASS,20250620234357,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10743-00-T\20250620232924\1@280.jpg
+1,28,Default,300-00766-00,P551,194.514,169.724,,193.9678,167.923,180,,administrator,Qiao_qi,administrator,PASS,20250620234357,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10743-00-T\20250620232924\1@28.jpg
+1,36,Default,300-00766-00,P426,174.457,203.979,,173.9064,202.1606,180,,administrator,Qiao_qi,administrator,PASS,20250620234357,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10743-00-T\20250620232924\1@36.jpg
+1,148,Default,184-30170-00,CN701,47.678,274.991,,47.1439,273.1089,180,,administrator,Cuo_jian,administrator,PASS,20250620234357,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10743-00-T\20250620232924\1@148.jpg
+[Window_INFO]

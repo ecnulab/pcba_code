@@ -1,0 +1,18 @@
+[MACHINE_INFO]
+SerialNumber,SoftwareVersion,UserID,LineNo,LotNo
+A8HXL21-011,4.0.11001.27006,administrator,5,1
+[Board_INFO]
+Barcode,GroupName,ProgramName,Side,Lane,Length,Width,Conveyor,Fidu,Module,Part,FOV,StartInspTime,EndInspTime,Inspection time,Result
+4244992562410663050319,GDW-LC,290-10663-05-B,NONE,Front,176,282,174.00,2,1,440,13,20250624192649,20250624192700,11.030,USEROK
+[PANEL_INFO]
+ModuleID,Result,InspTime,ModuleBarcode,RepairTime,Part_Total,Part_Good,Part_NG,Part_UserOK,Part_Skip
+1,USEROK,20250624192649,4244992562410663050319,20250624193246,440,434,0,6,0
+[Part_INFO]
+ModuleID,PartNo,Packaged,PartName,RefID,PosX,PosY,Part_Angle,CAD_X,CAD_Y,CAD_Angle,AlgorismKind,InspUserID,InspResult,RepairUserID,RepairResult,RepairTime,DefectNumber,Image_Path 
+1,359,Default,100-13270-00,R186,41.250,43.849,,41.0853,44.0938,180,,administrator,Kong_han,administrator,PASS,20250624193246,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10663-05-B\20250624192649\1@359.jpg
+1,362,Default,100-13270-00,R189,29.114,41.532,,28.9592,41.791,180,,administrator,Sun_jian,administrator,PASS,20250624193246,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10663-05-B\20250624192649\1@362.jpg
+1,363,Default,100-13270-00,R190,29.111,43.833,,28.9585,44.0898,180,,administrator,Sun_jian,administrator,PASS,20250624193246,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10663-05-B\20250624192649\1@363.jpg
+1,168,Default,160-01007-00,D24,76.817,59.652,,76.632,59.8473,270,,administrator,Si_yin_NG,administrator,PASS,20250624193246,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10663-05-B\20250624192649\1@168.jpg
+1,344,Default,100-51100-00,R171,170.050,45.877,,169.758,45.9948,180,,administrator,Si_yin_NG,administrator,PASS,20250624193246,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10663-05-B\20250624192649\1@344.jpg
+1,304,Default,100-52100-00,R94,163.675,71.371,,163.414,71.4697,0,,administrator,Si_yin_NG,administrator,PASS,20250624193246,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10663-05-B\20250624192649\1@304.jpg
+[Window_INFO]

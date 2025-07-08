@@ -1,0 +1,27 @@
+[MACHINE_INFO]
+SerialNumber,SoftwareVersion,UserID,LineNo,LotNo
+A8HXL21-011,4.0.11001.27006,administrator,5,1
+[Board_INFO]
+Barcode,GroupName,ProgramName,Side,Lane,Length,Width,Conveyor,Fidu,Module,Part,FOV,StartInspTime,EndInspTime,Inspection time,Result
+3844992562211113000009,GDW-SCYZ,290-11113-00-T,NONE,Front,307,529,300.50,2,1,1336,45,20250623223446,20250623223511,25.483,USEROK
+[PANEL_INFO]
+ModuleID,Result,InspTime,ModuleBarcode,RepairTime,Part_Total,Part_Good,Part_NG,Part_UserOK,Part_Skip
+1,USEROK,20250623223446,3844992562211113000009,20250623223858,1334,1319,0,15,0
+[Part_INFO]
+ModuleID,PartNo,Packaged,PartName,RefID,PosX,PosY,Part_Angle,CAD_X,CAD_Y,CAD_Angle,AlgorismKind,InspUserID,InspResult,RepairUserID,RepairResult,RepairTime,DefectNumber,Image_Path 
+1,1194,Default,142-10109-00,U701,417.079,74.389,,417.0514,73.4158,0,,administrator,Yin_jiao_Lift,administrator,PASS,20250623223858,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-11113-00-T\20250623223446\1@1194.jpg
+1,1195,Default,142-10109-00,U702,396.313,74.371,,396.2866,73.4158,0,,administrator,Yin_jiao_Lift,administrator,PASS,20250623223858,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-11113-00-T\20250623223446\1@1195.jpg
+1,1189,Default,151-00063-00,U504,336.211,86.688,,336.2004,85.7841,0,,administrator,Kong_han,administrator,PASS,20250623223858,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-11113-00-T\20250623223446\1@1189.jpg
+1,1109,Default,151-40064-00,U1,251.624,30.118,,251.5705,29.2921,270,,administrator,Yin_jiao_Lift,administrator,PASS,20250623223858,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-11113-00-T\20250623223446\1@1109.jpg
+1,1117,Default,151-30112-00,U1004,203.695,31.553,,203.6465,30.7686,180,,administrator,Si_yin_NG,administrator,PASS,20250623223858,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-11113-00-T\20250623223446\1@1117.jpg
+1,1156,Default,151-00075-00,U1302,92.479,45.045,,92.451,44.3555,180,,administrator,Si_yin_NG,administrator,PASS,20250623223858,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-11113-00-T\20250623223446\1@1156.jpg
+1,1161,Default,151-20088-00,U1403,66.022,56.817,,66.006,56.15,90,,administrator,Yin_jiao_Lift,administrator,PASS,20250623223858,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-11113-00-T\20250623223446\1@1161.jpg
+1,1336,Default,161-30009-00,LED1402,84.446,57.438,,84.4297,56.7544,0,,administrator,Si_yin_NG,administrator,PASS,20250623223858,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-11113-00-T\20250623223446\1@1336.jpg
+1,1122,Default,151-20025-00,U1101,110.109,90.798,,110.119,90.0899,270,,administrator,Pian_yi,administrator,PASS,20250623223858,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-11113-00-T\20250623223446\1@1122.jpg
+1,255,Default,125-00005-00,C1190,116.042,112.671,,116.0711,111.9557,270,,administrator,Qiao_qi,administrator,PASS,20250623223858,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-11113-00-T\20250623223446\1@255.jpg
+1,1443,Default,151-60010-00,U1200,37.147,92.178,,37.1643,91.533,0,,administrator,Si_yin_NG,administrator,PASS,20250623223858,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-11113-00-T\20250623223446\1@1443.jpg
+1,1153,Default,151-20089-00,U1201,69.537,104.061,,69.5615,103.3868,270,,administrator,Lian_xi,administrator,PASS,20250623223858,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-11113-00-T\20250623223446\1@1153.jpg
+1,1231,Default,184-30254-00,CN1400,40.291,105.009,,40.2035,104.3839,270,,administrator,Yin_jiao_Lift,administrator,PASS,20250623223858,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-11113-00-T\20250623223446\1@1231.jpg
+1,1234,Default,202-20012-00,CTL1200,52.026,98.999,,52.1237,98.341,90,,administrator,Kong_han,administrator,PASS,20250623223858,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-11113-00-T\20250623223446\1@1234.jpg
+1,523,Default,100-00055-00,R219,141.306,182.722,,141.3934,181.9794,0,,administrator,Pian_yi,administrator,PASS,20250623223858,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-11113-00-T\20250623223446\1@523.jpg
+[Window_INFO]

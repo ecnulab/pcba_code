@@ -1,0 +1,18 @@
+[MACHINE_INFO]
+SerialNumber,SoftwareVersion,UserID,LineNo,LotNo
+A8HXL21-011,4.0.11001.27006,administrator,5,1
+[Board_INFO]
+Barcode,GroupName,ProgramName,Side,Lane,Length,Width,Conveyor,Fidu,Module,Part,FOV,StartInspTime,EndInspTime,Inspection time,Result
+4151992562620192020018,GDW-LC,290-20192-02-B,NONE,Front,172,405,171.20,2,2,1860,32,20250627000341,20250627000400,18.992,USEROK
+[PANEL_INFO]
+ModuleID,Result,InspTime,ModuleBarcode,RepairTime,Part_Total,Part_Good,Part_NG,Part_UserOK,Part_Skip
+1,USEROK,20250627000341,4151992562620192020018,20250627000800,930,924,0,6,0
+[Part_INFO]
+ModuleID,PartNo,Packaged,PartName,RefID,PosX,PosY,Part_Angle,CAD_X,CAD_Y,CAD_Angle,AlgorismKind,InspUserID,InspResult,RepairUserID,RepairResult,RepairTime,DefectNumber,Image_Path 
+1,729,Default,125-00033-00,C720,374.657,21.209,,371.372,19.9461,0,,administrator,Qiao_qi,administrator,PASS,20250627000800,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-20192-02-B\20250627000341\1@729.jpg
+1,747,Default,125-00016-00,C669,369.502,43.991,,366.3111,42.7902,180,,administrator,Pian_yi,administrator,PASS,20250627000800,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-20192-02-B\20250627000341\1@747.jpg
+1,753,Default,125-00016-00,C673,384.852,41.599,,381.648,40.39,180,,administrator,Pian_yi,administrator,PASS,20250627000800,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-20192-02-B\20250627000341\1@753.jpg
+1,757,Default,125-00016-00,C675,379.841,41.598,,376.6412,40.3924,180,,administrator,Pian_yi,administrator,PASS,20250627000800,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-20192-02-B\20250627000341\1@757.jpg
+1,1013,Default,141-50022-00,L11,312.035,20.122,,308.7183,18.9765,270,,administrator,Qiao_qi,administrator,PASS,20250627000800,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-20192-02-B\20250627000341\1@1013.jpg
+1,835,Default,202-20010-00,CTL3,292.517,23.208,,289.2162,22.0731,90,,administrator,Si_yin_NG,administrator,PASS,20250627000800,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-20192-02-B\20250627000341\1@835.jpg
+[Window_INFO]

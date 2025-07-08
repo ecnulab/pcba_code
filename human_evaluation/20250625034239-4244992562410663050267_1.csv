@@ -1,0 +1,20 @@
+[MACHINE_INFO]
+SerialNumber,SoftwareVersion,UserID,LineNo,LotNo
+A8HXL21-011,4.0.11001.27006,administrator,5,1
+[Board_INFO]
+Barcode,GroupName,ProgramName,Side,Lane,Length,Width,Conveyor,Fidu,Module,Part,FOV,StartInspTime,EndInspTime,Inspection time,Result
+4244992562410663050267,GDW-LC,290-10663-05-T,NONE,Front,176,282,174.00,2,1,483,15,20250625034226,20250625034239,12.683,USEROK
+[PANEL_INFO]
+ModuleID,Result,InspTime,ModuleBarcode,RepairTime,Part_Total,Part_Good,Part_NG,Part_UserOK,Part_Skip
+1,USEROK,20250625034226,4244992562410663050267,20250625034751,483,475,0,8,0
+[Part_INFO]
+ModuleID,PartNo,Packaged,PartName,RefID,PosX,PosY,Part_Angle,CAD_X,CAD_Y,CAD_Angle,AlgorismKind,InspUserID,InspResult,RepairUserID,RepairResult,RepairTime,DefectNumber,Image_Path 
+1,343,Default,100-53301-00,R160,188.899,40.129,,188.3537,40.1192,180,,administrator,Si_yin_NG,administrator,PASS,20250625034751,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10663-05-T\20250625034226\1@343.jpg
+1,342,Default,100-53301-00,R157,188.897,41.879,,188.3516,41.8686,180,,administrator,Si_yin_NG,administrator,PASS,20250625034751,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10663-05-T\20250625034226\1@342.jpg
+1,475,Default,151-30108-00,U34,119.337,59.449,,118.7827,59.428,270,,administrator,Kong_han,administrator,PASS,20250625034751,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10663-05-T\20250625034226\1@475.jpg
+1,439,Default,120-00139-00,C172,172.704,112.682,,172.0701,112.9757,90,,administrator,Yin_jiao_Lift,administrator,PASS,20250625034751,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10663-05-T\20250625034226\1@439.jpg
+1,144,Default,184-10297-00,CN10,164.358,113.248,,163.2723,113.4648,90,,administrator,Yin_jiao_Lift,administrator,PASS,20250625034751,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10663-05-T\20250625034226\1@144.jpg
+1,456,Default,151-20101-00,U15,75.693,88.991,,75.1308,88.9652,0,,administrator,Kong_han,administrator,PASS,20250625034751,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10663-05-T\20250625034226\1@456.jpg
+1,148,Default,184-10297-00,CN9,84.437,116.426,,83.4954,115.7267,180,,administrator,Yin_jiao_Lift,administrator,PASS,20250625034751,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10663-05-T\20250625034226\1@148.jpg
+1,127,Default,125-00047-00,C220,52.443,78.671,,51.8809,78.6402,0,,administrator,Qiao_qi,administrator,PASS,20250625034751,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10663-05-T\20250625034226\1@127.jpg
+[Window_INFO]

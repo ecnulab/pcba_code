@@ -1,0 +1,18 @@
+[MACHINE_INFO]
+SerialNumber,SoftwareVersion,UserID,LineNo,LotNo
+A8HXL21-011,4.0.11001.27006,administrator,5,1
+[Board_INFO]
+Barcode,GroupName,ProgramName,Side,Lane,Length,Width,Conveyor,Fidu,Module,Part,FOV,StartInspTime,EndInspTime,Inspection time,Result
+4219992562510567070129,GDW-LC,290-10567-07-B,NONE,Front,376,442,346.50,2,1,307,26,20250626012105,20250626012122,17.435,USEROK
+[PANEL_INFO]
+ModuleID,Result,InspTime,ModuleBarcode,RepairTime,Part_Total,Part_Good,Part_NG,Part_UserOK,Part_Skip
+1,USEROK,20250626012105,4219992562510567070129,20250626012514,306,300,0,6,0
+[Part_INFO]
+ModuleID,PartNo,Packaged,PartName,RefID,PosX,PosY,Part_Angle,CAD_X,CAD_Y,CAD_Angle,AlgorismKind,InspUserID,InspResult,RepairUserID,RepairResult,RepairTime,DefectNumber,Image_Path 
+1,74,Default,170-10004-00,Q47,427.704,246.487,,427.6213,247.1572,90,,administrator,Si_yin_NG,administrator,PASS,20250626012514,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10567-07-B\20250626012105\1@74.jpg
+1,51,Default,161-20006-00,DZ5,122.780,242.522,,122.9519,243.7798,180,,administrator,Qiao_qi,administrator,PASS,20250626012514,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10567-07-B\20250626012105\1@51.jpg
+1,312,Default,161-10021-00,D53,77.370,244.809,,,,,,administrator,Pian_yi,administrator,PASS,20250626012514,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10567-07-B\20250626012105\1@312.jpg
+1,299,Default,161-10021-00,D32,120.406,259.299,,120.6155,260.5428,180,,administrator,Kong_han,administrator,PASS,20250626012514,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10567-07-B\20250626012105\1@299.jpg
+1,302,Default,161-10021-00,D35,120.487,239.095,,120.654,240.3617,180,,administrator,Qiao_qi,administrator,PASS,20250626012514,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10567-07-B\20250626012105\1@302.jpg
+1,305,Default,161-10021-00,D45,77.181,252.641,,77.4255,253.9838,180,,administrator,Qiao_qi,administrator,PASS,20250626012514,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10567-07-B\20250626012105\1@305.jpg
+[Window_INFO]

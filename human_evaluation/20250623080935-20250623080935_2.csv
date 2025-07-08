@@ -1,0 +1,17 @@
+[MACHINE_INFO]
+SerialNumber,SoftwareVersion,UserID,LineNo,LotNo
+A8HXL21-011,4.0.11001.27006,administrator,5,1
+[Board_INFO]
+Barcode,GroupName,ProgramName,Side,Lane,Length,Width,Conveyor,Fidu,Module,Part,FOV,StartInspTime,EndInspTime,Inspection time,Result
+,GDW-SCYZ,gold sample test,NONE,Front,186,218,182.00,2,3,21,15,20250623080927,20250623080935,8.543,USERNG
+[PANEL_INFO]
+ModuleID,Result,InspTime,ModuleBarcode,RepairTime,Part_Total,Part_Good,Part_NG,Part_UserOK,Part_Skip
+2,USERNG,20250623080927,,20250623081320,7,2,5,0,0
+[Part_INFO]
+ModuleID,PartNo,Packaged,PartName,RefID,PosX,PosY,Part_Angle,CAD_X,CAD_Y,CAD_Angle,AlgorismKind,InspUserID,InspResult,RepairUserID,RepairResult,RepairTime,DefectNumber,Image_Path 
+2,233,Default,120-00133-00,C109,108.992,113.153,,109.0233,112.6683,0,,administrator,Cuo_jian,administrator,Cuo_jian,20250623081320,,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\gold sample test\20250623080927\2@232.jpg
+2,191,Default,100-17100-00,R131,119.380,105.634,,119.1807,104.9852,0,,administrator,Si_yin_NG,administrator,Si_yin_NG,20250623081320,,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\gold sample test\20250623080927\2@190.jpg
+2,209,Default,100-19500-00,R138,126.796,105.573,,126.5991,104.916,180,,administrator,Si_yin_NG,administrator,Si_yin_NG,20250623081320,,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\gold sample test\20250623080927\2@208.jpg
+2,236,Default,151-04000-00,U102,103.292,80.124,,103.058,79.488,0,,administrator,Lian_xi,administrator,Lian_xi,20250623081320,,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\gold sample test\20250623080927\2@235.jpg
+2,224,Default,161-20000-00,ZD101,102.198,102.119,,101.9901,101.49,90,,administrator,Si_yin_NG,administrator,Si_yin_NG,20250623081320,,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\gold sample test\20250623080927\2@223.jpg
+[Window_INFO]

@@ -1,0 +1,18 @@
+[MACHINE_INFO]
+SerialNumber,SoftwareVersion,UserID,LineNo,LotNo
+A8HXL21-011,4.0.11001.27006,administrator,5,1
+[Board_INFO]
+Barcode,GroupName,ProgramName,Side,Lane,Length,Width,Conveyor,Fidu,Module,Part,FOV,StartInspTime,EndInspTime,Inspection time,Result
+1895992562211024T50013,GDW-ZD,290-11024-T5-T-ZD,NONE,Front,204,337,196.00,2,1,486,18,20250623190459,20250623190513,13.823,USEROK
+[PANEL_INFO]
+ModuleID,Result,InspTime,ModuleBarcode,RepairTime,Part_Total,Part_Good,Part_NG,Part_UserOK,Part_Skip
+1,USEROK,20250623190459,1895992562211024T50013,20250623190932,486,480,0,6,0
+[Part_INFO]
+ModuleID,PartNo,Packaged,PartName,RefID,PosX,PosY,Part_Angle,CAD_X,CAD_Y,CAD_Angle,AlgorismKind,InspUserID,InspResult,RepairUserID,RepairResult,RepairTime,DefectNumber,Image_Path 
+1,488,Default,100-53499-00,R61,123.760,181.136,,123.8797,181.1628,0,,administrator,Qiao_qi,administrator,PASS,20250623190932,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-ZD\290-11024-T5-T-ZD\20250623190459\1@488.jpg
+1,275,Default,100-50100-00,R26,125.827,109.807,,125.7359,109.8445,180,,administrator,Qiao_qi,administrator,PASS,20250623190932,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-ZD\290-11024-T5-T-ZD\20250623190459\1@275.jpg
+1,261,Default,170-20192-00,Q34,91.218,58.762,,90.9841,58.9137,270,,administrator,Si_yin_NG,administrator,PASS,20250623190932,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-ZD\290-11024-T5-T-ZD\20250623190459\1@261.jpg
+1,349,Default,100-52100-00,R46,104.589,81.759,,104.4197,81.8656,270,,administrator,Qiao_qi,administrator,PASS,20250623190932,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-ZD\290-11024-T5-T-ZD\20250623190459\1@349.jpg
+1,427,Default,100-53100-00,R255,146.693,12.188,,146.309,12.1868,90,,administrator,Qiao_qi,administrator,PASS,20250623190932,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-ZD\290-11024-T5-T-ZD\20250623190459\1@427.jpg
+1,260,Default,170-20065-00,Q33,149.492,12.288,,149.1078,12.2792,180,,administrator,Yin_jiao_Lift,administrator,PASS,20250623190932,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-ZD\290-11024-T5-T-ZD\20250623190459\1@260.jpg
+[Window_INFO]

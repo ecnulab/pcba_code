@@ -1,0 +1,27 @@
+[MACHINE_INFO]
+SerialNumber,SoftwareVersion,UserID,LineNo,LotNo
+A8HXL21-011,4.0.11001.27006,administrator,5,1
+[Board_INFO]
+Barcode,GroupName,ProgramName,Side,Lane,Length,Width,Conveyor,Fidu,Module,Part,FOV,StartInspTime,EndInspTime,Inspection time,Result
+3844992562211113000009,GDW-SCYZ,290-11113-00-T,NONE,Front,307,529,300.50,2,1,1336,45,20250623214519,20250623214545,25.942,USERNG
+[PANEL_INFO]
+ModuleID,Result,InspTime,ModuleBarcode,RepairTime,Part_Total,Part_Good,Part_NG,Part_UserOK,Part_Skip
+1,USERNG,20250623214519,3844992562211113000009,20250623215302,1334,1319,2,13,0
+[Part_INFO]
+ModuleID,PartNo,Packaged,PartName,RefID,PosX,PosY,Part_Angle,CAD_X,CAD_Y,CAD_Angle,AlgorismKind,InspUserID,InspResult,RepairUserID,RepairResult,RepairTime,DefectNumber,Image_Path 
+1,1194,Default,142-10109-00,U701,417.388,74.432,,417.0514,73.4158,0,,administrator,Yin_jiao_Lift,administrator,PASS,20250623215302,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-11113-00-T\20250623214519\1@1194.jpg
+1,1195,Default,142-10109-00,U702,396.622,74.420,,396.2866,73.4158,0,,administrator,Yin_jiao_Lift,administrator,PASS,20250623215302,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-11113-00-T\20250623214519\1@1195.jpg
+1,1189,Default,151-00063-00,U504,336.524,86.752,,336.2004,85.7841,0,,administrator,Kong_han,administrator,PASS,20250623215302,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-11113-00-T\20250623214519\1@1189.jpg
+1,1109,Default,151-40064-00,U1,251.923,30.204,,251.5705,29.2921,270,,administrator,Yin_jiao_Lift,administrator,PASS,20250623215302,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-11113-00-T\20250623214519\1@1109.jpg
+1,1117,Default,151-30112-00,U1004,203.995,31.651,,203.6465,30.7686,180,,administrator,Si_yin_NG,administrator,PASS,20250623215302,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-11113-00-T\20250623214519\1@1117.jpg
+1,1156,Default,151-00075-00,U1302,92.784,45.170,,92.451,44.3555,180,,administrator,Si_yin_NG,administrator,PASS,20250623215302,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-11113-00-T\20250623214519\1@1156.jpg
+1,1161,Default,151-20088-00,U1403,66.330,56.949,,66.006,56.15,90,,administrator,Yin_jiao_Lift,administrator,PASS,20250623215302,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-11113-00-T\20250623214519\1@1161.jpg
+1,1336,Default,161-30009-00,LED1402,84.754,57.565,,84.4297,56.7544,0,,administrator,Si_yin_NG,administrator,PASS,20250623215302,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-11113-00-T\20250623214519\1@1336.jpg
+1,1122,Default,151-20025-00,U1101,110.425,90.919,,110.119,90.0899,270,,administrator,Pian_yi,administrator,PASS,20250623215302,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-11113-00-T\20250623214519\1@1122.jpg
+1,1119,Default,151-00061-00,U1102,110.215,115.689,,109.9245,114.8588,0,,administrator,Kong_han,administrator,Kong_han,20250623215302,,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-11113-00-T\20250623214519\1@1119.jpg
+1,1453,Default,100-10000-00,L1201,88.968,120.070,,88.6816,119.2529,180,,administrator,Kong_han,administrator,PASS,20250623215302,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-11113-00-T\20250623214519\1@1453.jpg
+1,1153,Default,151-20089-00,U1201,69.856,104.191,,69.5615,103.3868,270,,administrator,Lian_xi,administrator,PASS,20250623215302,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-11113-00-T\20250623214519\1@1153.jpg
+1,1231,Default,184-30254-00,CN1400,40.611,105.147,,40.2035,104.3839,270,,administrator,Yin_jiao_Lift,administrator,PASS,20250623215302,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-11113-00-T\20250623214519\1@1231.jpg
+1,1234,Default,202-20012-00,CTL1200,52.345,99.134,,52.1237,98.341,90,,administrator,Kong_han,administrator,PASS,20250623215302,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-11113-00-T\20250623214519\1@1234.jpg
+1,1166,Default,151-10034-01,U303,56.956,288.158,,56.7754,287.3485,270,,administrator,Kong_han,administrator,Kong_han,20250623215302,,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-11113-00-T\20250623214519\1@1166.jpg
+[Window_INFO]

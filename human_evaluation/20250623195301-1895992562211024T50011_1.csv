@@ -1,0 +1,18 @@
+[MACHINE_INFO]
+SerialNumber,SoftwareVersion,UserID,LineNo,LotNo
+A8HXL21-011,4.0.11001.27006,administrator,5,1
+[Board_INFO]
+Barcode,GroupName,ProgramName,Side,Lane,Length,Width,Conveyor,Fidu,Module,Part,FOV,StartInspTime,EndInspTime,Inspection time,Result
+1895992562211024T50011,GDW-ZD,290-11024-T5-T-ZD,NONE,Front,204,337,196.00,2,1,486,18,20250623195248,20250623195301,13.855,USEROK
+[PANEL_INFO]
+ModuleID,Result,InspTime,ModuleBarcode,RepairTime,Part_Total,Part_Good,Part_NG,Part_UserOK,Part_Skip
+1,USEROK,20250623195248,1895992562211024T50011,20250623195648,486,480,0,6,0
+[Part_INFO]
+ModuleID,PartNo,Packaged,PartName,RefID,PosX,PosY,Part_Angle,CAD_X,CAD_Y,CAD_Angle,AlgorismKind,InspUserID,InspResult,RepairUserID,RepairResult,RepairTime,DefectNumber,Image_Path 
+1,153,Default,125-00013-00,C217,241.223,183.543,,241.2654,183.1098,270,,administrator,Kong_han,administrator,PASS,20250623195648,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-ZD\290-11024-T5-T-ZD\20250623195248\1@153.jpg
+1,235,Default,160-10037-00,D6,229.511,120.589,,229.3605,120.2067,270,,administrator,Cuo_jian,administrator,PASS,20250623195648,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-ZD\290-11024-T5-T-ZD\20250623195248\1@235.jpg
+1,491,Default,142-30004-00,TR1,178.148,61.785,,177.8272,61.5763,180,,administrator,Yin_jiao_Lift,administrator,PASS,20250623195648,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-ZD\290-11024-T5-T-ZD\20250623195248\1@491.jpg
+1,299,Default,100-17100-00,R305,161.234,108.715,,161.0634,108.5482,90,,administrator,Kong_han,administrator,PASS,20250623195648,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-ZD\290-11024-T5-T-ZD\20250623195248\1@299.jpg
+1,241,Default,300-00776-00,JP49,101.767,66.553,,101.4796,66.5813,135,,administrator,Qiao_qi,administrator,PASS,20250623195648,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-ZD\290-11024-T5-T-ZD\20250623195248\1@241.jpg
+1,67,Default,125-00097-00,C267,200.780,28.203,,200.3494,27.932,0,,administrator,Kong_han,administrator,PASS,20250623195648,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-ZD\290-11024-T5-T-ZD\20250623195248\1@67.jpg
+[Window_INFO]

@@ -1,0 +1,18 @@
+[MACHINE_INFO]
+SerialNumber,SoftwareVersion,UserID,LineNo,LotNo
+A8HXL21-011,4.0.11001.27006,administrator,5,1
+[Board_INFO]
+Barcode,GroupName,ProgramName,Side,Lane,Length,Width,Conveyor,Fidu,Module,Part,FOV,StartInspTime,EndInspTime,Inspection time,Result
+,GDW-SCYZ,gold sample test,NONE,Front,186,218,182.00,2,3,21,15,20250628075612,20250628075618,6.280,USERNG
+[PANEL_INFO]
+ModuleID,Result,InspTime,ModuleBarcode,RepairTime,Part_Total,Part_Good,Part_NG,Part_UserOK,Part_Skip
+1,USERNG,20250628075612,,20250628080009,7,1,5,1,0
+[Part_INFO]
+ModuleID,PartNo,Packaged,PartName,RefID,PosX,PosY,Part_Angle,CAD_X,CAD_Y,CAD_Angle,AlgorismKind,InspUserID,InspResult,RepairUserID,RepairResult,RepairTime,DefectNumber,Image_Path 
+1,229,Default,125-00007-00,C119,53.829,101.123,,53.5898,100.5353,180,,administrator,Que_jian,administrator,Que_jian,20250628080009,,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\gold sample test\20250628075612\1@229.jpg
+1,235,Default,151-04000-00,U102,31.336,80.262,,31.0624,79.704,0,,administrator,Lian_xi,administrator,Lian_xi,20250628080009,,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\gold sample test\20250628075612\1@235.jpg
+1,232,Default,120-00133-00,C109,37.027,113.295,,,,,,administrator,Cuo_jian,administrator,PASS,20250628080009,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\gold sample test\20250628075612\1@232.jpg
+1,190,Default,100-17100-00,R131,47.418,105.778,,47.1851,105.2013,0,,administrator,Si_yin_NG,administrator,Si_yin_NG,20250628080009,,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\gold sample test\20250628075612\1@190.jpg
+1,205,Default,100-19330-00,R137,54.839,108.066,,54.6105,107.4789,0,,administrator,Si_yin_NG,administrator,Si_yin_NG,20250628080009,,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\gold sample test\20250628075612\1@205.jpg
+1,208,Default,100-19500-00,R138,54.835,105.720,,54.6035,105.132,180,,administrator,Que_jian,administrator,Que_jian,20250628080009,,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\gold sample test\20250628075612\1@208.jpg
+[Window_INFO]

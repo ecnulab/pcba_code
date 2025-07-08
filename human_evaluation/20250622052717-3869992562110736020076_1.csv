@@ -1,0 +1,18 @@
+[MACHINE_INFO]
+SerialNumber,SoftwareVersion,UserID,LineNo,LotNo
+A8HXL21-011,4.0.11001.27006,administrator,5,1
+[Board_INFO]
+Barcode,GroupName,ProgramName,Side,Lane,Length,Width,Conveyor,Fidu,Module,Part,FOV,StartInspTime,EndInspTime,Inspection time,Result
+3869992562110736020076,GDW-SCYZ,290-10736-02-T,NONE,Front,367,550,363.00,2,1,756,55,20250622052642,20250622052717,35.720,USEROK
+[PANEL_INFO]
+ModuleID,Result,InspTime,ModuleBarcode,RepairTime,Part_Total,Part_Good,Part_NG,Part_UserOK,Part_Skip
+1,USEROK,20250622052642,3869992562110736020076,20250622053728,755,749,0,6,0
+[Part_INFO]
+ModuleID,PartNo,Packaged,PartName,RefID,PosX,PosY,Part_Angle,CAD_X,CAD_Y,CAD_Angle,AlgorismKind,InspUserID,InspResult,RepairUserID,RepairResult,RepairTime,DefectNumber,Image_Path 
+1,146,Default,120-00130-00,C145,480.769,206.594,,481.7774,205.674,180,,administrator,Kong_han,administrator,PASS,20250622053728,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-10736-02-T\20250622052642\1@146.jpg
+1,557,Default,100-52100-00,R48,395.139,65.363,,395.9333,64.4607,180,,administrator,Qiao_qi,administrator,PASS,20250622053728,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-10736-02-T\20250622052642\1@557.jpg
+1,750,Default,151-40012-00,U16,396.581,313.787,,397.8162,313.0269,180,,administrator,Si_yin_NG,administrator,PASS,20250622053728,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-10736-02-T\20250622052642\1@750.jpg
+1,414,Default,110-00038-00,R266,218.238,300.162,,219.204,299.6028,0,,administrator,Pian_yi,administrator,PASS,20250622053728,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-10736-02-T\20250622052642\1@414.jpg
+1,751,Default,151-40012-00,U7,71.655,314.107,,72.6271,313.7272,180,,administrator,Yin_jiao_Lift,administrator,PASS,20250622053728,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-10736-02-T\20250622052642\1@751.jpg
+1,217,Default,161-20006-00,DZ1000,11.236,13.596,,11.7476,13.0373,90,,administrator,Qiao_qi,administrator,PASS,20250622053728,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-10736-02-T\20250622052642\1@217.jpg
+[Window_INFO]

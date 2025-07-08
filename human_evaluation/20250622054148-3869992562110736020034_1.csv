@@ -1,0 +1,20 @@
+[MACHINE_INFO]
+SerialNumber,SoftwareVersion,UserID,LineNo,LotNo
+A8HXL21-011,4.0.11001.27006,administrator,5,1
+[Board_INFO]
+Barcode,GroupName,ProgramName,Side,Lane,Length,Width,Conveyor,Fidu,Module,Part,FOV,StartInspTime,EndInspTime,Inspection time,Result
+3869992562110736020034,GDW-SCYZ,290-10736-02-T,NONE,Front,367,550,363.00,2,1,756,55,20250622054110,20250622054148,37.993,USEROK
+[PANEL_INFO]
+ModuleID,Result,InspTime,ModuleBarcode,RepairTime,Part_Total,Part_Good,Part_NG,Part_UserOK,Part_Skip
+1,USEROK,20250622054110,3869992562110736020034,20250622055031,755,747,0,8,0
+[Part_INFO]
+ModuleID,PartNo,Packaged,PartName,RefID,PosX,PosY,Part_Angle,CAD_X,CAD_Y,CAD_Angle,AlgorismKind,InspUserID,InspResult,RepairUserID,RepairResult,RepairTime,DefectNumber,Image_Path 
+1,192,Default,160-01002-00,D1001,501.486,279.428,,502.6203,278.5811,180,,administrator,Kong_han,administrator,PASS,20250622055031,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-10736-02-T\20250622054110\1@192.jpg
+1,755,Default,151-00001-00,U804,474.887,161.940,,475.9043,161.1646,270,,administrator,Si_yin_NG,administrator,PASS,20250622055031,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-10736-02-T\20250622054110\1@755.jpg
+1,161,Default,120-00099-00,C837,475.865,113.008,,476.8293,112.2496,90,,administrator,Yin_jiao_Lift,administrator,PASS,20250622055031,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-10736-02-T\20250622054110\1@161.jpg
+1,162,Default,120-00099-00,C194,487.046,113.030,,488.0064,112.2594,90,,administrator,Pian_yi,administrator,PASS,20250622055031,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-10736-02-T\20250622054110\1@162.jpg
+1,387,Default,100-51200-00,R399,484.820,142.973,,485.8129,142.1941,90,,administrator,Si_yin_NG,administrator,PASS,20250622055031,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-10736-02-T\20250622054110\1@387.jpg
+1,179,Default,160-03002-00,D1,417.102,57.000,,418.027,56.3254,90,,administrator,Si_yin_NG,administrator,PASS,20250622055031,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-10736-02-T\20250622054110\1@179.jpg
+1,228,Default,300-00766-00,JP2,185.142,252.732,,186.364,252.2354,90,,administrator,Pian_yi,administrator,PASS,20250622055031,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-10736-02-T\20250622054110\1@228.jpg
+1,203,Default,160-02005-00,D41,59.884,299.770,,61.2019,299.3908,180,,administrator,Si_yin_NG,administrator,PASS,20250622055031,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-10736-02-T\20250622054110\1@203.jpg
+[Window_INFO]

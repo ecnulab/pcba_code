@@ -1,0 +1,18 @@
+[MACHINE_INFO]
+SerialNumber,SoftwareVersion,UserID,LineNo,LotNo
+A8HXL21-011,4.0.11001.27006,administrator,5,1
+[Board_INFO]
+Barcode,GroupName,ProgramName,Side,Lane,Length,Width,Conveyor,Fidu,Module,Part,FOV,StartInspTime,EndInspTime,Inspection time,Result
+4241992562310663050594,GDW-LC,290-10663-05-T,NONE,Front,176,282,174.00,2,1,483,15,20250624091123,20250624091135,12.811,USEROK
+[PANEL_INFO]
+ModuleID,Result,InspTime,ModuleBarcode,RepairTime,Part_Total,Part_Good,Part_NG,Part_UserOK,Part_Skip
+1,USEROK,20250624091123,4241992562310663050594,20250624091524,483,477,0,6,0
+[Part_INFO]
+ModuleID,PartNo,Packaged,PartName,RefID,PosX,PosY,Part_Angle,CAD_X,CAD_Y,CAD_Angle,AlgorismKind,InspUserID,InspResult,RepairUserID,RepairResult,RepairTime,DefectNumber,Image_Path 
+1,160,Default,160-10022-00,D13,179.098,76.269,,178.742691040039,76.2957229614258,90,,administrator,Si_yin_NG,administrator,PASS,20250624091524,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10663-05-T\20250624091123\1@160.jpg
+1,179,Default,141-50020-00,L18,156.753,12.775,,156.42741394043,12.7890357971191,0,,administrator,Cuo_jian,administrator,PASS,20250624091524,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10663-05-T\20250624091123\1@179.jpg
+1,186,Default,170-10018-00,Q18,130.360,84.083,,129.998947143555,84.0867156982422,270,,administrator,Qiao_qi,administrator,PASS,20250624091524,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10663-05-T\20250624091123\1@186.jpg
+1,453,Default,151-40051-00,U7,83.885,99.190,,83.5155868530273,99.1721115112305,270,,administrator,Yin_jiao_Shift,administrator,PASS,20250624091524,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10663-05-T\20250624091123\1@453.jpg
+1,430,Default,100-52499-00,R353,92.437,64.509,,92.0851287841797,64.4937896728516,0,,administrator,Kong_han,administrator,PASS,20250624091524,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10663-05-T\20250624091123\1@430.jpg
+1,178,Default,141-50000-00,L13,76.651,53.801,,76.3033142089844,53.7779960632324,180,,administrator,Si_yin_NG,administrator,PASS,20250624091524,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10663-05-T\20250624091123\1@178.jpg
+[Window_INFO]

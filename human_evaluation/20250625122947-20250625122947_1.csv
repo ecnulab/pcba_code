@@ -1,0 +1,18 @@
+[MACHINE_INFO]
+SerialNumber,SoftwareVersion,UserID,LineNo,LotNo
+A8HXL21-011,4.0.11001.27006,administrator,5,1
+[Board_INFO]
+Barcode,GroupName,ProgramName,Side,Lane,Length,Width,Conveyor,Fidu,Module,Part,FOV,StartInspTime,EndInspTime,Inspection time,Result
+4179992562570278020109,GDW-LC,290-70278-02,NONE,Front,141,385,139.00,2,1,262,17,20250625122933,20250625122947,13.272,USEROK
+[PANEL_INFO]
+ModuleID,Result,InspTime,ModuleBarcode,RepairTime,Part_Total,Part_Good,Part_NG,Part_UserOK,Part_Skip
+1,USEROK,20250625122933,4179992562570278020109,20250625123336,261,255,0,6,0
+[Part_INFO]
+ModuleID,PartNo,Packaged,PartName,RefID,PosX,PosY,Part_Angle,CAD_X,CAD_Y,CAD_Angle,AlgorismKind,InspUserID,InspResult,RepairUserID,RepairResult,RepairTime,DefectNumber,Image_Path 
+1,195,Default,100-52130-00,R245,55.951,27.941,,56.3216,26.9737,0,,administrator,Kong_han,administrator,PASS,20250625123336,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-70278-02\20250625122933\1@195.jpg
+1,126,Default,100-52100-00,R225,81.465,35.957,,81.8147,34.9581,0,,administrator,Kong_han,administrator,PASS,20250625123336,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-70278-02\20250625122933\1@126.jpg
+1,124,Default,100-52100-00,R217,126.002,20.465,,126.2885,19.4434,0,,administrator,Kong_han,administrator,PASS,20250625123336,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-70278-02\20250625122933\1@124.jpg
+1,170,Default,100-51510-00,R251,136.811,17.167,,137.0824,16.1396,0,,administrator,BODYAREA,administrator,PASS,20250625123336,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-70278-02\20250625122933\1@170.jpg
+1,21,Default,171-00003-00,Q103,91.485,94.376,,91.9494,93.3786,180,,administrator,Pian_yi,administrator,PASS,20250625123336,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-70278-02\20250625122933\1@21.jpg
+1,119,Default,100-52100-00,R181,297.897,15.281,,297.9906,14.1135,180,,administrator,Kong_han,administrator,PASS,20250625123336,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-70278-02\20250625122933\1@119.jpg
+[Window_INFO]

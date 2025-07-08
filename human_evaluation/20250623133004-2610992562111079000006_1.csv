@@ -1,0 +1,18 @@
+[MACHINE_INFO]
+SerialNumber,SoftwareVersion,UserID,LineNo,LotNo
+A8HXL21-011,4.0.11001.27006,administrator,5,1
+[Board_INFO]
+Barcode,GroupName,ProgramName,Side,Lane,Length,Width,Conveyor,Fidu,Module,Part,FOV,StartInspTime,EndInspTime,Inspection time,Result
+2610992562111079000006,GDW-SCYZ,290-11079-00-T,NONE,Front,471,484,465.00,2,1,1383,67,20250623132923,20250623133004,41.023,USEROK
+[PANEL_INFO]
+ModuleID,Result,InspTime,ModuleBarcode,RepairTime,Part_Total,Part_Good,Part_NG,Part_UserOK,Part_Skip
+1,USEROK,20250623132923,2610992562111079000006,20250623133622,1383,1377,0,6,0
+[Part_INFO]
+ModuleID,PartNo,Packaged,PartName,RefID,PosX,PosY,Part_Angle,CAD_X,CAD_Y,CAD_Angle,AlgorismKind,InspUserID,InspResult,RepairUserID,RepairResult,RepairTime,DefectNumber,Image_Path 
+1,1381,Default,300-00766-00,P38,273.679,75.629,,273.8531,75.7406,90,,administrator,Que_jian,administrator,PASS,20250623133622,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-11079-00-T\20250623132923\1@1381.jpg
+1,1177,Default,120-00139-00,C558,400.759,374.018,,400.6574,373.8736,180,,administrator,Pian_yi,administrator,PASS,20250623133622,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-11079-00-T\20250623132923\1@1177.jpg
+1,305,Default,125-00014-00,C694,327.588,321.680,,327.8541,321.726,270,,administrator,Kong_han,administrator,PASS,20250623133622,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-11079-00-T\20250623132923\1@305.jpg
+1,591,Default,100-51249-00,R505,247.468,307.937,,247.7421,308.0177,270,,administrator,Si_yin_NG,administrator,PASS,20250623133622,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-11079-00-T\20250623132923\1@591.jpg
+1,1074,Default,180-00076-00,RLY1,104.199,11.899,,104.3768,12.0915,180,,administrator,Yin_jiao_Lift,administrator,PASS,20250623133622,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-11079-00-T\20250623132923\1@1074.jpg
+1,257,Default,125-00014-00,C463,46.960,113.338,,47.1902,113.5356,90,,administrator,Kong_han,administrator,PASS,20250623133622,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-SCYZ\290-11079-00-T\20250623132923\1@257.jpg
+[Window_INFO]

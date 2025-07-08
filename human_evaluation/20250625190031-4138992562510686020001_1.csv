@@ -1,0 +1,18 @@
+[MACHINE_INFO]
+SerialNumber,SoftwareVersion,UserID,LineNo,LotNo
+A8HXL21-011,4.0.11001.27006,administrator,5,1
+[Board_INFO]
+Barcode,GroupName,ProgramName,Side,Lane,Length,Width,Conveyor,Fidu,Module,Part,FOV,StartInspTime,EndInspTime,Inspection time,Result
+4138992562510686020001,GDW-LC,290-10686-02-T,NONE,Front,413,516,405.00,2,1,886,47,20250625190002,20250625190031,29.266,USEROK
+[PANEL_INFO]
+ModuleID,Result,InspTime,ModuleBarcode,RepairTime,Part_Total,Part_Good,Part_NG,Part_UserOK,Part_Skip
+1,USEROK,20250625190002,4138992562510686020001,20250625190422,885,879,0,6,0
+[Part_INFO]
+ModuleID,PartNo,Packaged,PartName,RefID,PosX,PosY,Part_Angle,CAD_X,CAD_Y,CAD_Angle,AlgorismKind,InspUserID,InspResult,RepairUserID,RepairResult,RepairTime,DefectNumber,Image_Path 
+1,871,Default,151-40051-00,U18,344.337,33.395,,343.9951,32.8488,270,,administrator,Yin_jiao_Lift,administrator,PASS,20250625190422,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10686-02-T\20250625190002\1@871.jpg
+1,180,Default,125-00017-00,C351,299.272,101.929,,298.9528,101.4427,270,,administrator,Kong_han,administrator,PASS,20250625190422,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10686-02-T\20250625190002\1@180.jpg
+1,357,Default,161-40000-00,D66,375.202,123.319,,374.9307,122.7938,90,,administrator,Yin_jiao_Lift,administrator,PASS,20250625190422,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10686-02-T\20250625190002\1@357.jpg
+1,314,Default,120-00117-00,C382,491.284,173.955,,491.0975,173.3793,270,,administrator,Si_yin_NG,administrator,PASS,20250625190422,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10686-02-T\20250625190002\1@314.jpg
+1,846,Default,110-00039-00,R482,152.829,318.851,,,,,,administrator,Cuo_jian,administrator,PASS,20250625190422,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10686-02-T\20250625190002\1@846.jpg
+1,847,Default,110-00039-00,R483,146.973,318.822,,,,,,administrator,Cuo_jian,administrator,PASS,20250625190422,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10686-02-T\20250625190002\1@847.jpg
+[Window_INFO]

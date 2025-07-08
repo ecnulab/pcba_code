@@ -1,0 +1,17 @@
+[MACHINE_INFO]
+SerialNumber,SoftwareVersion,UserID,LineNo,LotNo
+A8HXL21-011,4.0.11001.27006,administrator,5,1
+[Board_INFO]
+Barcode,GroupName,ProgramName,Side,Lane,Length,Width,Conveyor,Fidu,Module,Part,FOV,StartInspTime,EndInspTime,Inspection time,Result
+4244992562410663050010,GDW-LC,290-10663-05-T,NONE,Front,176,282,174.00,2,1,483,15,20250625032529,20250625032542,12.700,USEROK
+[PANEL_INFO]
+ModuleID,Result,InspTime,ModuleBarcode,RepairTime,Part_Total,Part_Good,Part_NG,Part_UserOK,Part_Skip
+1,USEROK,20250625032529,4244992562410663050010,20250625034236,483,478,0,5,0
+[Part_INFO]
+ModuleID,PartNo,Packaged,PartName,RefID,PosX,PosY,Part_Angle,CAD_X,CAD_Y,CAD_Angle,AlgorismKind,InspUserID,InspResult,RepairUserID,RepairResult,RepairTime,DefectNumber,Image_Path 
+1,137,Default,120-00138-00,C96,119.962,7.696,,120.1205,7.5714,0,,administrator,Yin_jiao_Lift,administrator,PASS,20250625034236,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10663-05-T\20250625032529\1@137.jpg
+1,361,Default,100-51200-00,R336,144.410,86.058,,144.542,85.9509,90,,administrator,Jiao_du_NG,administrator,PASS,20250625034236,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10663-05-T\20250625032529\1@361.jpg
+1,144,Default,184-10297-00,CN10,163.674,113.336,,163.2723,113.4648,90,,administrator,Yin_jiao_Lift,administrator,PASS,20250625034236,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10663-05-T\20250625032529\1@144.jpg
+1,146,Default,184-10297-00,CN12,173.373,159.195,,173.7826,159.6327,0,,administrator,Yin_jiao_Lift,administrator,PASS,20250625034236,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10663-05-T\20250625032529\1@146.jpg
+1,414,Default,100-51150-00,R390,58.541,58.497,,58.6734,58.355,180,,administrator,Si_yin_NG,administrator,PASS,20250625034236,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10663-05-T\20250625032529\1@414.jpg
+[Window_INFO]

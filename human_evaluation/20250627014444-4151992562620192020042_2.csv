@@ -1,0 +1,18 @@
+[MACHINE_INFO]
+SerialNumber,SoftwareVersion,UserID,LineNo,LotNo
+A8HXL21-011,4.0.11001.27006,administrator,5,1
+[Board_INFO]
+Barcode,GroupName,ProgramName,Side,Lane,Length,Width,Conveyor,Fidu,Module,Part,FOV,StartInspTime,EndInspTime,Inspection time,Result
+4151992562620192020041,GDW-LC,290-20192-02-T,NONE,Front,177,406,171.20,2,2,2442,37,20250627014421,20250627014444,23.261,USEROK
+[PANEL_INFO]
+ModuleID,Result,InspTime,ModuleBarcode,RepairTime,Part_Total,Part_Good,Part_NG,Part_UserOK,Part_Skip
+2,USEROK,20250627014421,4151992562620192020042,20250627015059,1220,1214,0,6,0
+[Part_INFO]
+ModuleID,PartNo,Packaged,PartName,RefID,PosX,PosY,Part_Angle,CAD_X,CAD_Y,CAD_Angle,AlgorismKind,InspUserID,InspResult,RepairUserID,RepairResult,RepairTime,DefectNumber,Image_Path 
+2,1624,Default,151-20089-00,U24,344.447,60.287,,341.1195,59.1904,90,,administrator,Yin_jiao_Lift,administrator,PASS,20250627015059,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-20192-02-T\20250627014421\2@1623.jpg
+2,1922,Default,161-10015-00,D73,295.593,72.095,,292.2404,71.1661,90,,administrator,Qiao_qi,administrator,PASS,20250627015059,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-20192-02-T\20250627014421\2@1921.jpg
+2,1780,Default,151-20012-00,U93,147.325,12.844,,143.9302,12.2461,0,,administrator,Yin_jiao_Lift,administrator,PASS,20250627015059,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-20192-02-T\20250627014421\2@1779.jpg
+2,1926,Default,161-10015-00,D84,122.563,25.911,,119.2079,25.3562,180,,administrator,Qiao_qi,administrator,PASS,20250627015059,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-20192-02-T\20250627014421\2@1925.jpg
+2,160,Default,100-62100-00,R860,76.249,33.953,,72.9343,33.4868,270,,administrator,Fu_gao,administrator,PASS,20250627015059,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-20192-02-T\20250627014421\2@159.jpg
+2,1932,Default,161-10015-00,D87,86.528,45.379,,83.3065,44.8868,180,,administrator,Qiao_qi,administrator,PASS,20250627015059,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-20192-02-T\20250627014421\2@1931.jpg
+[Window_INFO]

@@ -1,0 +1,18 @@
+[MACHINE_INFO]
+SerialNumber,SoftwareVersion,UserID,LineNo,LotNo
+A8HXL21-011,4.0.11001.27006,administrator,5,1
+[Board_INFO]
+Barcode,GroupName,ProgramName,Side,Lane,Length,Width,Conveyor,Fidu,Module,Part,FOV,StartInspTime,EndInspTime,Inspection time,Result
+4241992562310663050394,GDW-LC,290-10663-05-T,NONE,Front,176,282,174.00,2,1,483,15,20250624152444,20250624152455,11.639,USEROK
+[PANEL_INFO]
+ModuleID,Result,InspTime,ModuleBarcode,RepairTime,Part_Total,Part_Good,Part_NG,Part_UserOK,Part_Skip
+1,USEROK,20250624152444,4241992562310663050394,20250624152853,483,477,0,6,0
+[Part_INFO]
+ModuleID,PartNo,Packaged,PartName,RefID,PosX,PosY,Part_Angle,CAD_X,CAD_Y,CAD_Angle,AlgorismKind,InspUserID,InspResult,RepairUserID,RepairResult,RepairTime,DefectNumber,Image_Path 
+1,357,Default,100-52169-00,R77,199.696,155.241,,199.0098,155.1949,180,,administrator,Kong_han,administrator,PASS,20250624152853,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10663-05-T\20250624152444\1@357.jpg
+1,337,Default,100-52680-00,R159,185.517,34.272,,184.912,34.2169,0,,administrator,Si_yin_NG,administrator,PASS,20250624152853,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10663-05-T\20250624152444\1@337.jpg
+1,480,Default,120-00156-00,C210,142.675,7.783,,142.2383,7.6234,0,,administrator,Cuo_jian,administrator,PASS,20250624152853,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10663-05-T\20250624152444\1@480.jpg
+1,199,Default,170-20105-00,Q13,122.107,162.134,,121.4166,162.036,270,,administrator,Kong_han,administrator,PASS,20250624152853,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10663-05-T\20250624152444\1@199.jpg
+1,467,Default,151-00081-00,U17,75.669,95.593,,75.0229,95.4629,270,,administrator,Si_yin_NG,administrator,PASS,20250624152853,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10663-05-T\20250624152444\1@467.jpg
+1,106,Default,125-00014-00,C47,83.558,109.592,,82.9032,109.468,180,,administrator,Kong_han,administrator,PASS,20250624152853,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-10663-05-T\20250624152444\1@106.jpg
+[Window_INFO]

@@ -1,0 +1,18 @@
+[MACHINE_INFO]
+SerialNumber,SoftwareVersion,UserID,LineNo,LotNo
+A8HXL21-011,4.0.11001.27006,administrator,5,1
+[Board_INFO]
+Barcode,GroupName,ProgramName,Side,Lane,Length,Width,Conveyor,Fidu,Module,Part,FOV,StartInspTime,EndInspTime,Inspection time,Result
+3895992562111053010191,GDW-LC,290-11053-01-T,NONE,Front,335,412,325.00,2,1,747,39,20250622002741,20250622002805,24.199,USEROK
+[PANEL_INFO]
+ModuleID,Result,InspTime,ModuleBarcode,RepairTime,Part_Total,Part_Good,Part_NG,Part_UserOK,Part_Skip
+1,USEROK,20250622002741,3895992562111053010191,20250622003444,747,741,0,6,0
+[Part_INFO]
+ModuleID,PartNo,Packaged,PartName,RefID,PosX,PosY,Part_Angle,CAD_X,CAD_Y,CAD_Angle,AlgorismKind,InspUserID,InspResult,RepairUserID,RepairResult,RepairTime,DefectNumber,Image_Path 
+1,736,Default,151-40064-00,U5,321.853,32.608,,322.1286,32.1336,270,,administrator,Yin_jiao_Lift,administrator,PASS,20250622003444,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-11053-01-T\20250622002741\1@736.jpg
+1,717,Default,151-00080-00,U1,288.175,19.894,,288.473,19.3107,270,,administrator,Yin_jiao_Lift,administrator,PASS,20250622003444,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-11053-01-T\20250622002741\1@717.jpg
+1,385,Default,100-50100-00,R344,100.862,73.762,,101.389,73.2813,90,,administrator,Jiao_du_NG,administrator,PASS,20250622003444,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-11053-01-T\20250622002741\1@385.jpg
+1,349,Default,171-00001-00,Q103,139.290,224.104,,139.9046,223.4435,180,,administrator,Qiao_qi,administrator,PASS,20250622003444,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-11053-01-T\20250622002741\1@349.jpg
+1,723,Default,151-40079-00,U12,151.858,249.159,,152.4805,248.4637,0,,administrator,Si_yin_NG,administrator,PASS,20250622003444,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-11053-01-T\20250622002741\1@723.jpg
+1,742,Default,151-40084-00,U403,35.421,200.623,,36.1184,200.072,270,,administrator,Si_yin_NG,administrator,PASS,20250622003444,NULL,D:\Eagle3D_data\InspectResult\Image\GDW-LC\290-11053-01-T\20250622002741\1@742.jpg
+[Window_INFO]
