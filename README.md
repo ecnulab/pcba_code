@@ -27,6 +27,14 @@ init_engine(r"D:\goodwe_test\test_goodwe_test\weights")
 csv_directory = r"D:\goodwe_test\test_goodwe_test\human_evaluation"  # 替换为实际目录 后续改为全局变量
 ```
 
+
+
+#### 权重链接
+
+链接: https://pan.baidu.com/s/1wkcEVg3a5rUTlCDvZ7dvvg 提取码: eawc 
+
+
+
 #### 快速开始
 
 ```python
