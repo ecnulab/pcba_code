@@ -12,7 +12,7 @@ import time
 import requests
 import os
 from pathlib import Path
-
+from log_config import logger
 def test_detection(image_path, model_type):
     """测试目标检测接口"""
     try:
