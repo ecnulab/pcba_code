@@ -18,7 +18,7 @@ def find_matching_csv(target_timestamp):
     返回:
         str: 匹配的CSV文件路径，没找到返回None
     """
-    csv_directory = r"D:\goodwe_test\test_goodwe_test\human_evaluation"  # 替换为实际目录 后续改为全局变量
+    csv_directory = r"C:\pycharm\files\pcba_code\human_evaluation"  # 替换为实际目录 后续改为全局变量
 
     # 获取目录下所有CSV文件
     csv_files = glob.glob(os.path.join(csv_directory, "*.csv"))
