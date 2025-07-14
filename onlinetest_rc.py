@@ -36,6 +36,11 @@ def test_detection(image_path, model_type):
             result = response.json()
             detection_ok = result['status']
             detection_ok = detection_ok.upper()
+
+            # # 输出切割结果
+            # from utils import draw_from_result
+            # draw_from_result(result,image_path,output_root)
+
             print(detection_ok)
             if detection_ok == "OK":
                 return "AIOK"

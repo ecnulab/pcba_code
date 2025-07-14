@@ -37,6 +37,30 @@ headers = [
     "FONT_ANGLE","REMARK"
 ]
 
+def draw_from_result(result,image_path,output_root):
+    """
+    根据模型输出在图片上绘制矩形框并保存
+    :param result: 模型网络接口的返回值
+    :param image_path: 图片的文件路径
+    :param output_root: 保存目录（文件夹路径）
+    """
+    max_confidence = -1
+    best_coords = None
+
+    for detection in result['detection_results']:
+        coords = detection[:4]  # 提取坐标（前4个数字）
+        confidence = detection[-1]  # 提取置信度（最后一个数字）
+
+        if confidence > max_confidence:
+            max_confidence = confidence
+            best_coords = coords
+
+    # 输出置信度最高的坐标（四元组）
+    # print("置信度最高的坐标：", tuple(best_coords))
+
+    int_tuple = tuple(map(int, best_coords))
+    draw_rectangle_and_crop(image_path,int_tuple,output_root)
+
 def draw_rectangle_and_crop(image_path, coords, output_root):
     """
     在图片上绘制矩形框，并裁剪出矩形框区域保存
@@ -53,11 +77,11 @@ def draw_rectangle_and_crop(image_path, coords, output_root):
     # 提取四个坐标
     x1, y1, x2, y2 = coords
 
+    # 裁剪出矩形框部分
+    cropped_img = img[y1:y2, x1:x2].copy()
+
     # 绘制矩形框（颜色为红色，BGR: (0,0,255)，线宽2）
     cv2.rectangle(img, (x1, y1), (x2, y2), (0, 0, 255), 2)
-
-    # 裁剪出矩形框部分
-    cropped_img = img[y1:y2, x1:x2]
 
     # 获取文件名和扩展名
     filename, ext = os.path.splitext(os.path.basename(image_path))
