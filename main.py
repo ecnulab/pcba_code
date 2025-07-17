@@ -152,8 +152,7 @@ def monitor_directory(path, config, handler, scan_interval=0.5):
                 handler.scan_files()
                 if handler.check_timeout(0.5):  # 0.5秒无变化触发
                     print(datetime.now(),f" {Path(path).as_posix()} - (500ms无变化)")
-                    logger.info(datetime.now(),f" {Path(path).as_posix()} - (500ms无变化)")
-
+                    logger.info(f"{datetime.now()} {Path(path).as_posix()} - (500ms无变化)")
 
                     if path.endswith("Machine"):
                         # init_folders(config)
@@ -208,13 +207,11 @@ def listen_dir(config):
 
 if __name__ == '__main__':
 
-
-
     logger = setup_logging()
     logger.info("系统启动")
-    config = ConfigLoader(r"D:\goodwe_test\test_goodwe_test\config.yaml")
+    config = ConfigLoader(r"C:\pycharm\files\pcba_code\config.yaml")
 
     _global = None
-    init_engine(r"D:\goodwe_test\test_goodwe_test\weights")
+    # init_engine(r"C:\pycharm\files\PCBAmaterial\weights")
     init_folders(config)
     listen_dir(config)
