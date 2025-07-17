@@ -47,6 +47,9 @@ def draw_from_result(result,image_path,output_root):
     max_confidence = -1
     best_coords = None
 
+    if len(result['detection_results']) == 0:
+        return
+
     for detection in result['detection_results']:
         coords = detection[:4]  # 提取坐标（前4个数字）
         confidence = detection[-1]  # 提取置信度（最后一个数字）
@@ -385,7 +388,7 @@ def process_file_package(work_machine_path: str, ai_output_path: str, stable_mac
 
                 # time.sleep(0.5)  # 暂停1秒
                 tobe_processed.popleft()
-                return
+                continue
 
             # 验证文件存在
             if not os.path.exists(csv_path):
@@ -407,7 +410,7 @@ def process_file_package(work_machine_path: str, ai_output_path: str, stable_mac
                 logger.warning(f"读取数据包{package_name}中的CSV文件不存在: {ai_path}")
                 # time.sleep(0.5)  # 暂停1秒
                 tobe_processed.popleft()
-                return
+                continue
 
 
             if RECORD_DATE == None:
@@ -489,6 +492,8 @@ def process_file_package(work_machine_path: str, ai_output_path: str, stable_mac
 
 
                         filepath_woac, filepath_ac = find_image_by_pattern(ng_image_folder, image_pattern)
+                        record.filepath_woac = filepath_woac
+                        record.filepath_ac = filepath_ac
 
                         # print(filepath_woac)
                         # print(filepath_ac)
@@ -498,11 +503,8 @@ def process_file_package(work_machine_path: str, ai_output_path: str, stable_mac
                         if filepath_ac == "":
                             record.remark = record.remark + ' AC_lose'
                             logger.warning(f"未找到{image_pattern}_AC")
-                        if filepath_woac == "" and filepath_ac == "" :
-
+                        if (filepath_woac == "" and filepath_ac == "") or (filepath_woac is None and filepath_ac is None):
                             continue
-
-
 
                         partcode = row['PARTCODE']
                         if partcode in component_mapping:
@@ -515,7 +517,10 @@ def process_file_package(work_machine_path: str, ai_output_path: str, stable_mac
                             # !!!!!!!!!! R C !!!!!!!!!!
 
                             try:
-                                result = process_image(filepath_woac, filepath_ac, category)
+                                result , result_woac , result_ac = process_image_with_result(filepath_woac, filepath_ac, category)
+                                record.result_woac = result_woac
+                                record.result_ac = result_ac
+
                             except Exception as e:
                                 logger.error(f"{e}")
                                 record.remark = "File lost "
@@ -607,15 +612,15 @@ def process_file_package(work_machine_path: str, ai_output_path: str, stable_mac
                     if module_is_ng is None:
                         module_is_ng = True
 
-
+                record_pass = False
                 for index, row in human_eva_result.iterrows():
                     if record.refid == row['RefID']:
-
                         record.inspresult = row["InspResult"]
                         record.repairresult = row["RepairResult"]
                         record.repairtime = row["RepairTime"]
 
                         if record.repairresult == "OK" or record.repairresult == "PASS" or record.repairresult == "" or record.repairresult == None:
+                            record_pass = True
                             if  record.flag == "AIOK":
                                 record.part_tp = 1
                             else:
@@ -625,6 +630,22 @@ def process_file_package(work_machine_path: str, ai_output_path: str, stable_mac
                                 record.part_fp = 1
                             else:
                                 record.part_tn = 1
+
+
+                # 输出切割结果
+                flag = "OK" if record_pass else "NG"
+
+                if not hasattr(record,"category"):
+                    print("not have category")
+                else:
+                    output_root = rf"C:\pycharm\files\pcba_code\test\{record.category}\{flag}"
+
+                if hasattr(record,"category") and hasattr(record, "result_woac") and record.result_woac is not None and hasattr(record, "filepath_woac"):
+                    print(record.result_woac, record.filepath_woac, output_root)
+                    draw_from_result(record.result_woac, record.filepath_woac, output_root)
+
+                if hasattr(record,"category") and hasattr(record, "result_ac") and record.result_ac is not None and hasattr(record, "filepath_ac"):
+                    draw_from_result(record.result_ac, record.filepath_ac, output_root)
 
             if module_is_ng :
                 for record in modulelist:

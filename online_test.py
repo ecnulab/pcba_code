@@ -158,7 +158,6 @@ def process_image(filepath_woac: str, filepath_ac: str, category: str) -> str:
 
         if _engine is None:
             raise RuntimeError("请先调用 init_engine() 初始化")
-    
 
         # 获取非AC图片的预测结果
         result_woac = None
@@ -179,6 +178,52 @@ def process_image(filepath_woac: str, filepath_ac: str, category: str) -> str:
             return result_ac
         elif result_woac is not None:  # 只有非AC结果
             return result_woac
+    except Exception as e:
+        logger.error(f"process image failed!! {e}")
+
+
+def process_image_with_result(filepath_woac: str, filepath_ac: str, category: str):
+    """
+    使用全局引擎对R、C类进行推理, 并根据AC图片结果判断最终结果
+
+    Args:
+        filepath_woac: 非AC图片路径
+        filepath_ac: AC图片路径
+        category: 类别名称
+        flag: 人工判断结果
+
+    Returns:
+        str: 'OK' 或 'NG'
+    """
+    try:
+        if category in ["R", "C"]:
+            result_woac = None
+            result1 = None
+            if filepath_woac is not None:
+                result_woac , result1 = test_detection_with_result(filepath_woac, category)
+            print("非AC图片的路径是: ", filepath_woac , flush=True)
+            print("非AC图片的结果是: ", result_woac)
+            print("finish remote sevice about R/C model!!!")
+
+            # 获取AC图片的预测结果
+            result_ac = None
+            result2 = None
+            if filepath_ac is not None:
+                result_ac , result2 = test_detection_with_result(filepath_ac, category)
+            print("AC图片的路径是: ", filepath_ac)
+            print("AC图片的结果是: ", result_ac)
+            print("finish remote sevice about R/C model!!!")
+
+            # 根据优先级返回结果
+
+            if result_ac is not None:  # AC结果优先
+                return result_ac , result1 , result2
+            elif result_woac is not None:  # 只有非AC结果
+                return result_woac , result1 , result2
+            else:
+                print("error:no valid result\n", filepath_woac , filepath_ac , category)
+
+        return "AING" , None , None
     except Exception as e:
         logger.error(f"process image failed!! {e}")
         
