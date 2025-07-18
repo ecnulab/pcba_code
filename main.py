@@ -209,9 +209,9 @@ if __name__ == '__main__':
 
     logger = setup_logging()
     logger.info("系统启动")
-    config = ConfigLoader(r"C:\pycharm\files\pcba_code\config.yaml")
+    config = ConfigLoader(r"D:\研究生\固德威项目\pcba_code-main\config.yaml")
 
     _global = None
-    # init_engine(r"C:\pycharm\files\PCBAmaterial\weights")
+    # init_engine(r"D:\goodwe_test\test_goodwe_test\weights")
     init_folders(config)
     listen_dir(config)

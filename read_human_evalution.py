@@ -18,7 +18,7 @@ def find_matching_csv(target_timestamp):
     返回:
         str: 匹配的CSV文件路径，没找到返回None
     """
-    csv_directory = r"C:\pycharm\files\pcba_code\human_evaluation"  # 替换为实际目录 后续改为全局变量
+    csv_directory = r"D:\研究生\固德威项目\pcba_code\human_evaluation"  # 替换为实际目录 后续改为全局变量
 
     # 获取目录下所有CSV文件
     csv_files = glob.glob(os.path.join(csv_directory, "*.csv"))
@@ -27,8 +27,8 @@ def find_matching_csv(target_timestamp):
     if not csv_files:
         print(f"人工复判目录 {csv_directory} 中没有CSV文件")
         logger.warning(f"人工复判目录 {csv_directory} 中没有CSV文件")
-        
-        return None
+
+        return None, None, None, None
 
     # 找到时间戳大于目标时间戳的CSV文件
     matching_files = []
@@ -47,7 +47,7 @@ def find_matching_csv(target_timestamp):
     if not matching_files:
         # print(f"没有找到时间戳大于 {target_timestamp} 的CSV文件")
         logger.info(f"没有找到时间戳大于 {target_timestamp} 的CSV文件")
-        return None,None
+        return None, None, None, None
 
     # 按时间戳排序，取最小的（第一个大于目标时间戳的）
     matching_files.sort()
@@ -56,18 +56,16 @@ def find_matching_csv(target_timestamp):
     print(f"找到匹配文件: {os.path.basename(matched_file)}")
     logger.info(f"找到匹配文件: {os.path.basename(matched_file)}")
 
-
-    info={}
-
+    info = {}
 
     path = os.path.join(csv_directory, matched_file)
 
-    full_df = pd.read_csv(path,skiprows=1,nrows=2,sep=',',engine='python')
+    full_df = pd.read_csv(path, skiprows=1, nrows=2, sep=',', engine='python')
 
     info["SerialNumber"] = full_df.iloc[0, 0]
     # print(info["SerialNumber"])
 
-    other_df = pd.read_csv(path,skiprows=7,nrows=2,sep=',',engine='python')
+    other_df = pd.read_csv(path, skiprows=7, nrows=2, sep=',', engine='python')
     # print(other_df)
     info["Module_Result"] = other_df.iloc[0, 1]
     info["Part_Total"] = other_df.iloc[0, 5]
@@ -76,13 +74,16 @@ def find_matching_csv(target_timestamp):
     info["Part_UserOK"] = other_df.iloc[0, 8]
     info["Part_Skip"] = other_df.iloc[0, 9]
 
+    other_df2 = pd.read_csv(path, skiprows=4, nrows=2, sep=',', engine='python')
+    StartInspTime = other_df2.iloc[0, 12]
+    StartInspTime_str = str(int(StartInspTime))
 
     # 读取CSV文件，跳过前10行
-    path = os.path.join(csv_directory, matched_file)
-    old_df = pd.read_csv(path, skiprows=10,encoding='utf-8')
+    # path = os.path.join(csv_directory, matched_file)
+    old_df = pd.read_csv(path, skiprows=10, encoding='utf-8')
     # df = old_df[['PartName', 'RefID', 'RepairResult', 'Image_Path ']].copy()
-    df = old_df[['PartName', 'RefID','InspResult', 'RepairResult','RepairTime', 'Image_Path ']].copy()
-    return df , info
+    df = old_df[['PartName', 'RefID', 'InspResult', 'RepairResult', 'RepairTime', 'Image_Path ']].copy()
+    return df, info, StartInspTime_str, path
 
 
 
