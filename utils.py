@@ -73,6 +73,25 @@ def draw_rectangle_and_crop(image_path, coords, output_root):
 
     return box_img_path, cropped_img_path
 
+def move_image(image_path, output_root):
+    img = cv2.imread(image_path)
+    if img is None:
+        raise FileNotFoundError(f"无法读取图片: {image_path}")
+
+    # 获取文件名和扩展名
+    filename, ext = os.path.splitext(os.path.basename(image_path))
+    # 获取当前时间戳
+    timestamp = datetime.now().strftime('%Y%m%d%H%M%S')
+    # 生成带时间戳的文件名
+    img_name = f"{timestamp}_{filename}{ext}"
+    # 确保保存目录存在
+    os.makedirs(output_root, exist_ok=True)
+    # 定义保存路径
+    img_path = os.path.join(output_root, img_name)
+    # 保存图片
+    cv2.imwrite(img_path, img)
+
+
 
 def copy_folders_sleep_delete(src_path: str, dest_path: str) -> Tuple[bool, List[str]]:
     """复制文件夹到目标路径，并延迟删除目标文件夹"""
@@ -359,6 +378,9 @@ def process_file_package(work_machine_path: str, ai_output_path: str, stable_mac
                     record.font_angle = row['FONT_ANGLE']
 
                     filepath_woac, filepath_ac = find_image_by_pattern(ng_image_folder, image_pattern)
+                    record.filepath_woac = filepath_woac
+                    record.filepath_ac = filepath_ac
+
                     # print(filepath_woac)
                     # print(filepath_ac)
                     if filepath_woac == "":
@@ -367,17 +389,21 @@ def process_file_package(work_machine_path: str, ai_output_path: str, stable_mac
                     if filepath_ac == "":
                         record.remark = record.remark + ' AC_lose'
                         logger.warning(f"未找到{image_pattern}_AC")
-                    if filepath_woac == "" and filepath_ac == "":
+                    if filepath_woac == "" and filepath_ac == "" or filepath_woac is None and filepath_ac is None:
                         continue
 
                     partcode = row['PARTCODE']
                     if partcode in component_mapping:
                         category = component_mapping[partcode]
                         record.category = category
+                        if(category == "" or category is None):
+                            print(1)
+                            input()
 
                         # !!!!!!!!!! R C !!!!!!!!!!
                         try:
-                            result = process_image(filepath_woac, filepath_ac, category)
+                            # result = process_image(filepath_woac, filepath_ac, category)
+                            result = "AING"
                         except Exception as e:
                             logger.error(f"{e}")
                             record.remark = "File lost "
@@ -459,6 +485,7 @@ def process_file_package(work_machine_path: str, ai_output_path: str, stable_mac
                     if module_is_ng is None:
                         module_is_ng = True
 
+                record_pass = False
                 for index, row in human_eva_result.iterrows():
                     if record.refid == row['RefID']:
 
@@ -467,6 +494,7 @@ def process_file_package(work_machine_path: str, ai_output_path: str, stable_mac
                         record.repairtime = row["RepairTime"]
 
                         if record.repairresult == "OK" or record.repairresult == "PASS" or record.repairresult == "" or record.repairresult == None:
+                            record_pass = True
                             if record.flag == "AIOK":
                                 record.part_tp = 1
                             else:
@@ -476,6 +504,24 @@ def process_file_package(work_machine_path: str, ai_output_path: str, stable_mac
                                 record.part_fp = 1
                             else:
                                 record.part_tn = 1
+
+                # 输出结果
+                flag = "OK" if record_pass else "NG"
+
+                if not hasattr(record, "category"):
+                    print("not have category")
+                else:
+                    if (record.category == "" or record.category is None):
+                        print(2)
+                    else:
+                        output_root = rf"C:\pycharm\files\pcba_code\test11\{record.category}\{flag}"
+
+                        if hasattr(record, "category") and hasattr(record, "filepath_woac") and record.filepath_woac is not None:
+                            print(record.filepath_woac, output_root)
+                            move_image(record.filepath_woac,output_root)
+                        if hasattr(record, "category") and hasattr(record, "filepath_ac") and record.filepath_ac is not None:
+                            print(record.filepath_ac, output_root)
+                            move_image(record.filepath_ac, output_root)
 
             if module_is_ng:
                 for record in modulelist:
